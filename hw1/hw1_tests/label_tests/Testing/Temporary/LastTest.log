@@ -1,0 +1,1458 @@
+Start testing: Jan 28 00:40 UTC
+----------------------------------------------------------
+1/23 Testing: LabelList.Nominal
+1/23 Test: LabelList.Nominal
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=LabelList.Nominal"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"LabelList.Nominal" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7681== Memcheck, a memory error detector
+==7681== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7681== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7681== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=LabelList.Nominal
+==7681== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = LabelList.Nominal
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from LabelList
+[ RUN      ] LabelList.Nominal
+[       OK ] LabelList.Nominal (84 ms)
+[----------] 1 test from LabelList (91 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (117 ms total)
+[  PASSED  ] 1 test.
+==7681== 
+==7681== HEAP SUMMARY:
+==7681==     in use at exit: 0 bytes in 0 blocks
+==7681==   total heap usage: 426 allocs, 426 frees, 130,318 bytes allocated
+==7681== 
+==7681== All heap blocks were freed -- no leaks are possible
+==7681== 
+==7681== For lists of detected and suppressed errors, rerun with: -s
+==7681== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"LabelList.Nominal" end time: Jan 28 00:40 UTC
+"LabelList.Nominal" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/23 Testing: EmptyList.EmptyAndSize
+2/23 Test: EmptyList.EmptyAndSize
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=EmptyList.EmptyAndSize"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"EmptyList.EmptyAndSize" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7682== Memcheck, a memory error detector
+==7682== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7682== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7682== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=EmptyList.EmptyAndSize
+==7682== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyList.EmptyAndSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyList
+[ RUN      ] EmptyList.EmptyAndSize
+[       OK ] EmptyList.EmptyAndSize (38 ms)
+[----------] 1 test from EmptyList (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (84 ms total)
+[  PASSED  ] 1 test.
+==7682== 
+==7682== HEAP SUMMARY:
+==7682==     in use at exit: 0 bytes in 0 blocks
+==7682==   total heap usage: 406 allocs, 406 frees, 129,609 bytes allocated
+==7682== 
+==7682== All heap blocks were freed -- no leaks are possible
+==7682== 
+==7682== For lists of detected and suppressed errors, rerun with: -s
+==7682== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.15 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyList.EmptyAndSize" end time: Jan 28 00:40 UTC
+"EmptyList.EmptyAndSize" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/23 Testing: EmptyList.OperationsOnEmptyList
+3/23 Test: EmptyList.OperationsOnEmptyList
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=EmptyList.OperationsOnEmptyList"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"EmptyList.OperationsOnEmptyList" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7683== Memcheck, a memory error detector
+==7683== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7683== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7683== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=EmptyList.OperationsOnEmptyList
+==7683== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = EmptyList.OperationsOnEmptyList
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EmptyList
+[ RUN      ] EmptyList.OperationsOnEmptyList
+[       OK ] EmptyList.OperationsOnEmptyList (32 ms)
+[----------] 1 test from EmptyList (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (62 ms total)
+[  PASSED  ] 1 test.
+==7683== 
+==7683== HEAP SUMMARY:
+==7683==     in use at exit: 0 bytes in 0 blocks
+==7683==   total heap usage: 404 allocs, 404 frees, 129,656 bytes allocated
+==7683== 
+==7683== All heap blocks were freed -- no leaks are possible
+==7683== 
+==7683== For lists of detected and suppressed errors, rerun with: -s
+==7683== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"EmptyList.OperationsOnEmptyList" end time: Jan 28 00:40 UTC
+"EmptyList.OperationsOnEmptyList" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/23 Testing: Exceptions.Find
+4/23 Test: Exceptions.Find
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Find"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Exceptions.Find" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7684== Memcheck, a memory error detector
+==7684== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7684== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7684== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Find
+==7684== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Find
+[       OK ] Exceptions.Find (60 ms)
+[----------] 1 test from Exceptions (70 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (93 ms total)
+[  PASSED  ] 1 test.
+==7684== 
+==7684== HEAP SUMMARY:
+==7684==     in use at exit: 0 bytes in 0 blocks
+==7684==   total heap usage: 384 allocs, 384 frees, 129,152 bytes allocated
+==7684== 
+==7684== All heap blocks were freed -- no leaks are possible
+==7684== 
+==7684== For lists of detected and suppressed errors, rerun with: -s
+==7684== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.08 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Find" end time: Jan 28 00:40 UTC
+"Exceptions.Find" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/23 Testing: Exceptions.Label
+5/23 Test: Exceptions.Label
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Label"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Exceptions.Label" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7685== Memcheck, a memory error detector
+==7685== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7685== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7685== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Label
+==7685== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Label
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Label
+[       OK ] Exceptions.Label (53 ms)
+[----------] 1 test from Exceptions (59 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (82 ms total)
+[  PASSED  ] 1 test.
+==7685== 
+==7685== HEAP SUMMARY:
+==7685==     in use at exit: 0 bytes in 0 blocks
+==7685==   total heap usage: 406 allocs, 406 frees, 129,716 bytes allocated
+==7685== 
+==7685== All heap blocks were freed -- no leaks are possible
+==7685== 
+==7685== For lists of detected and suppressed errors, rerun with: -s
+==7685== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Label" end time: Jan 28 00:40 UTC
+"Exceptions.Label" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/23 Testing: Exceptions.Print
+6/23 Test: Exceptions.Print
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Print"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Exceptions.Print" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7686== Memcheck, a memory error detector
+==7686== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7686== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7686== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Print
+==7686== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Print
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Print
+[       OK ] Exceptions.Print (55 ms)
+[----------] 1 test from Exceptions (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (85 ms total)
+[  PASSED  ] 1 test.
+==7686== 
+==7686== HEAP SUMMARY:
+==7686==     in use at exit: 0 bytes in 0 blocks
+==7686==   total heap usage: 406 allocs, 406 frees, 129,715 bytes allocated
+==7686== 
+==7686== All heap blocks were freed -- no leaks are possible
+==7686== 
+==7686== For lists of detected and suppressed errors, rerun with: -s
+==7686== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Print" end time: Jan 28 00:40 UTC
+"Exceptions.Print" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/23 Testing: Exceptions.Unlabel
+7/23 Test: Exceptions.Unlabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Exceptions.Unlabel"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Exceptions.Unlabel" start time: Jan 28 00:40 UTC
+Output:
+----------------------------------------------------------
+==7687== Memcheck, a memory error detector
+==7687== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7687== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7687== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Exceptions.Unlabel
+==7687== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Exceptions.Unlabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Exceptions
+[ RUN      ] Exceptions.Unlabel
+[       OK ] Exceptions.Unlabel (100 ms)
+[----------] 1 test from Exceptions (108 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (131 ms total)
+[  PASSED  ] 1 test.
+==7687== 
+==7687== HEAP SUMMARY:
+==7687==     in use at exit: 0 bytes in 0 blocks
+==7687==   total heap usage: 418 allocs, 418 frees, 130,372 bytes allocated
+==7687== 
+==7687== All heap blocks were freed -- no leaks are possible
+==7687== 
+==7687== For lists of detected and suppressed errors, rerun with: -s
+==7687== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.13 sec
+----------------------------------------------------------
+Test Passed.
+"Exceptions.Unlabel" end time: Jan 28 00:41 UTC
+"Exceptions.Unlabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/23 Testing: Label.Label1
+8/23 Test: Label.Label1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.Label1"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Label.Label1" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7688== Memcheck, a memory error detector
+==7688== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7688== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7688== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.Label1
+==7688== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.Label1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.Label1
+==7688== Conditional jump or move depends on uninitialised value(s)
+==7688==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7688==    by 0x119B42: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:57)
+==7688==    by 0x11F0A4: Label_Label1_Test::TestBody() (label_tests.cpp:201)
+==7688==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7688==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7688==    by 0x1623D5: Run (gtest.cc:2508)
+==7688==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7688==    by 0x162534: Run (gtest.cc:2684)
+==7688==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7688==    by 0x16261C: Run (gtest.cc:2816)
+==7688==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7688==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7688==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7688==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7688==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7688==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7688== 
+==7688== Conditional jump or move depends on uninitialised value(s)
+==7688==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7688==    by 0x11A142: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:61)
+==7688==    by 0x11F0A4: Label_Label1_Test::TestBody() (label_tests.cpp:201)
+==7688==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7688==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7688==    by 0x1623D5: Run (gtest.cc:2508)
+==7688==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7688==    by 0x162534: Run (gtest.cc:2684)
+==7688==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7688==    by 0x16261C: Run (gtest.cc:2816)
+==7688==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7688==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7688==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7688==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7688==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7688==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7688== 
+[       OK ] Label.Label1 (158 ms)
+[----------] 1 test from Label (168 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (206 ms total)
+[  PASSED  ] 1 test.
+==7688== 
+==7688== HEAP SUMMARY:
+==7688==     in use at exit: 0 bytes in 0 blocks
+==7688==   total heap usage: 447 allocs, 447 frees, 131,881 bytes allocated
+==7688== 
+==7688== All heap blocks were freed -- no leaks are possible
+==7688== 
+==7688== Use --track-origins=yes to see where uninitialised values come from
+==7688== For lists of detected and suppressed errors, rerun with: -s
+==7688== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.40 sec
+----------------------------------------------------------
+Test Passed.
+"Label.Label1" end time: Jan 28 00:41 UTC
+"Label.Label1" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/23 Testing: Label.Label2
+9/23 Test: Label.Label2
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.Label2"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Label.Label2" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7689== Memcheck, a memory error detector
+==7689== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7689== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7689== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.Label2
+==7689== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.Label2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.Label2
+==7689== Conditional jump or move depends on uninitialised value(s)
+==7689==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7689==    by 0x119B42: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:57)
+==7689==    by 0x11F424: Label_Label2_Test::TestBody() (label_tests.cpp:238)
+==7689==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7689==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7689==    by 0x1623D5: Run (gtest.cc:2508)
+==7689==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7689==    by 0x162534: Run (gtest.cc:2684)
+==7689==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7689==    by 0x16261C: Run (gtest.cc:2816)
+==7689==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7689==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7689==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7689==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7689==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7689==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7689== 
+==7689== Conditional jump or move depends on uninitialised value(s)
+==7689==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7689==    by 0x11A142: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:61)
+==7689==    by 0x11F424: Label_Label2_Test::TestBody() (label_tests.cpp:238)
+==7689==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7689==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7689==    by 0x1623D5: Run (gtest.cc:2508)
+==7689==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7689==    by 0x162534: Run (gtest.cc:2684)
+==7689==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7689==    by 0x16261C: Run (gtest.cc:2816)
+==7689==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7689==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7689==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7689==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7689==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7689==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7689== 
+==7689== Conditional jump or move depends on uninitialised value(s)
+==7689==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7689==    by 0x11F474: Label_Label2_Test::TestBody() (label_tests.cpp:269)
+==7689==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7689==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7689==    by 0x1623D5: Run (gtest.cc:2508)
+==7689==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7689==    by 0x162534: Run (gtest.cc:2684)
+==7689==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7689==    by 0x16261C: Run (gtest.cc:2816)
+==7689==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7689==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7689==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7689==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7689==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7689==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7689== 
+[       OK ] Label.Label2 (118 ms)
+[----------] 1 test from Label (125 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (150 ms total)
+[  PASSED  ] 1 test.
+==7689== 
+==7689== HEAP SUMMARY:
+==7689==     in use at exit: 0 bytes in 0 blocks
+==7689==   total heap usage: 461 allocs, 461 frees, 132,665 bytes allocated
+==7689== 
+==7689== All heap blocks were freed -- no leaks are possible
+==7689== 
+==7689== Use --track-origins=yes to see where uninitialised values come from
+==7689== For lists of detected and suppressed errors, rerun with: -s
+==7689== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.24 sec
+----------------------------------------------------------
+Test Passed.
+"Label.Label2" end time: Jan 28 00:41 UTC
+"Label.Label2" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/23 Testing: Find.FindEmpty
+10/23 Test: Find.FindEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindEmpty"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Find.FindEmpty" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7690== Memcheck, a memory error detector
+==7690== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7690== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7690== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindEmpty
+==7690== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindEmpty
+[       OK ] Find.FindEmpty (23 ms)
+[----------] 1 test from Find (30 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (54 ms total)
+[  PASSED  ] 1 test.
+==7690== 
+==7690== HEAP SUMMARY:
+==7690==     in use at exit: 0 bytes in 0 blocks
+==7690==   total heap usage: 380 allocs, 380 frees, 128,771 bytes allocated
+==7690== 
+==7690== All heap blocks were freed -- no leaks are possible
+==7690== 
+==7690== For lists of detected and suppressed errors, rerun with: -s
+==7690== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindEmpty" end time: Jan 28 00:41 UTC
+"Find.FindEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+11/23 Testing: Find.FindViaMessage
+11/23 Test: Find.FindViaMessage
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindViaMessage"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Find.FindViaMessage" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7691== Memcheck, a memory error detector
+==7691== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7691== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7691== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindViaMessage
+==7691== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindViaMessage
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindViaMessage
+==7691== Conditional jump or move depends on uninitialised value(s)
+==7691==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7691==    by 0x119B42: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:57)
+==7691==    by 0x1209EA: Find_FindViaMessage_Test::TestBody() (label_tests.cpp:294)
+==7691==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7691==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7691==    by 0x1623D5: Run (gtest.cc:2508)
+==7691==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7691==    by 0x162534: Run (gtest.cc:2684)
+==7691==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7691==    by 0x16261C: Run (gtest.cc:2816)
+==7691==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7691==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7691==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7691==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7691==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7691==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7691== 
+==7691== Conditional jump or move depends on uninitialised value(s)
+==7691==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7691==    by 0x11A142: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:61)
+==7691==    by 0x1209EA: Find_FindViaMessage_Test::TestBody() (label_tests.cpp:294)
+==7691==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7691==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7691==    by 0x1623D5: Run (gtest.cc:2508)
+==7691==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7691==    by 0x162534: Run (gtest.cc:2684)
+==7691==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7691==    by 0x16261C: Run (gtest.cc:2816)
+==7691==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7691==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7691==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7691==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7691==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7691==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7691== 
+[       OK ] Find.FindViaMessage (134 ms)
+[----------] 1 test from Find (145 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (182 ms total)
+[  PASSED  ] 1 test.
+==7691== 
+==7691== HEAP SUMMARY:
+==7691==     in use at exit: 0 bytes in 0 blocks
+==7691==   total heap usage: 446 allocs, 446 frees, 131,388 bytes allocated
+==7691== 
+==7691== All heap blocks were freed -- no leaks are possible
+==7691== 
+==7691== Use --track-origins=yes to see where uninitialised values come from
+==7691== For lists of detected and suppressed errors, rerun with: -s
+==7691== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.28 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindViaMessage" end time: Jan 28 00:41 UTC
+"Find.FindViaMessage" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/23 Testing: Find.FindViaIndex
+12/23 Test: Find.FindViaIndex
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Find.FindViaIndex"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Find.FindViaIndex" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7692== Memcheck, a memory error detector
+==7692== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7692== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7692== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Find.FindViaIndex
+==7692== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Find.FindViaIndex
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Find
+[ RUN      ] Find.FindViaIndex
+==7692== Conditional jump or move depends on uninitialised value(s)
+==7692==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7692==    by 0x119B42: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:57)
+==7692==    by 0x1218BA: Find_FindViaIndex_Test::TestBody() (label_tests.cpp:342)
+==7692==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7692==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7692==    by 0x1623D5: Run (gtest.cc:2508)
+==7692==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7692==    by 0x162534: Run (gtest.cc:2684)
+==7692==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7692==    by 0x16261C: Run (gtest.cc:2816)
+==7692==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7692==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7692==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7692==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7692==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7692==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7692== 
+==7692== Conditional jump or move depends on uninitialised value(s)
+==7692==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7692==    by 0x11A142: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:61)
+==7692==    by 0x1218BA: Find_FindViaIndex_Test::TestBody() (label_tests.cpp:342)
+==7692==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7692==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7692==    by 0x1623D5: Run (gtest.cc:2508)
+==7692==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7692==    by 0x162534: Run (gtest.cc:2684)
+==7692==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7692==    by 0x16261C: Run (gtest.cc:2816)
+==7692==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7692==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7692==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7692==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7692==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7692==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7692== 
+[       OK ] Find.FindViaIndex (89 ms)
+[----------] 1 test from Find (97 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (120 ms total)
+[  PASSED  ] 1 test.
+==7692== 
+==7692== HEAP SUMMARY:
+==7692==     in use at exit: 0 bytes in 0 blocks
+==7692==   total heap usage: 446 allocs, 446 frees, 131,374 bytes allocated
+==7692== 
+==7692== All heap blocks were freed -- no leaks are possible
+==7692== 
+==7692== Use --track-origins=yes to see where uninitialised values come from
+==7692== For lists of detected and suppressed errors, rerun with: -s
+==7692== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.25 sec
+----------------------------------------------------------
+Test Passed.
+"Find.FindViaIndex" end time: Jan 28 00:41 UTC
+"Find.FindViaIndex" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/23 Testing: Unlabel.UnlabelBadLabel
+13/23 Test: Unlabel.UnlabelBadLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.UnlabelBadLabel"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Unlabel.UnlabelBadLabel" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7693== Memcheck, a memory error detector
+==7693== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7693== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7693== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.UnlabelBadLabel
+==7693== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.UnlabelBadLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.UnlabelBadLabel
+==7693== Conditional jump or move depends on uninitialised value(s)
+==7693==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7693==    by 0x1226C5: Unlabel_UnlabelBadLabel_Test::TestBody() (label_tests.cpp:398)
+==7693==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7693==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7693==    by 0x1623D5: Run (gtest.cc:2508)
+==7693==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7693==    by 0x162534: Run (gtest.cc:2684)
+==7693==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7693==    by 0x16261C: Run (gtest.cc:2816)
+==7693==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7693==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7693==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7693==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7693==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7693==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7693== 
+[       OK ] Unlabel.UnlabelBadLabel (96 ms)
+[----------] 1 test from Unlabel (102 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (126 ms total)
+[  PASSED  ] 1 test.
+==7693== 
+==7693== HEAP SUMMARY:
+==7693==     in use at exit: 0 bytes in 0 blocks
+==7693==   total heap usage: 443 allocs, 443 frees, 131,688 bytes allocated
+==7693== 
+==7693== All heap blocks were freed -- no leaks are possible
+==7693== 
+==7693== Use --track-origins=yes to see where uninitialised values come from
+==7693== For lists of detected and suppressed errors, rerun with: -s
+==7693== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.11 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.UnlabelBadLabel" end time: Jan 28 00:41 UTC
+"Unlabel.UnlabelBadLabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+14/23 Testing: Unlabel.Unlabel1
+14/23 Test: Unlabel.Unlabel1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.Unlabel1"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Unlabel.Unlabel1" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7694== Memcheck, a memory error detector
+==7694== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7694== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7694== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.Unlabel1
+==7694== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.Unlabel1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.Unlabel1
+==7694== Conditional jump or move depends on uninitialised value(s)
+==7694==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7694==    by 0x119B42: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:57)
+==7694==    by 0x123C20: Unlabel_Unlabel1_Test::TestBody() (label_tests.cpp:419)
+==7694==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7694==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7694==    by 0x1623D5: Run (gtest.cc:2508)
+==7694==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7694==    by 0x162534: Run (gtest.cc:2684)
+==7694==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7694==    by 0x16261C: Run (gtest.cc:2816)
+==7694==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7694==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7694==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7694==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7694==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7694==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7694== 
+==7694== Conditional jump or move depends on uninitialised value(s)
+==7694==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7694==    by 0x11A142: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:61)
+==7694==    by 0x123C20: Unlabel_Unlabel1_Test::TestBody() (label_tests.cpp:419)
+==7694==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7694==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7694==    by 0x1623D5: Run (gtest.cc:2508)
+==7694==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7694==    by 0x162534: Run (gtest.cc:2684)
+==7694==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7694==    by 0x16261C: Run (gtest.cc:2816)
+==7694==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7694==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7694==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7694==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7694==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7694==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7694== 
+[       OK ] Unlabel.Unlabel1 (116 ms)
+[----------] 1 test from Unlabel (124 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (149 ms total)
+[  PASSED  ] 1 test.
+==7694== 
+==7694== HEAP SUMMARY:
+==7694==     in use at exit: 0 bytes in 0 blocks
+==7694==   total heap usage: 463 allocs, 463 frees, 132,391 bytes allocated
+==7694== 
+==7694== All heap blocks were freed -- no leaks are possible
+==7694== 
+==7694== Use --track-origins=yes to see where uninitialised values come from
+==7694== For lists of detected and suppressed errors, rerun with: -s
+==7694== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.16 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.Unlabel1" end time: Jan 28 00:41 UTC
+"Unlabel.Unlabel1" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/23 Testing: Unlabel.UnlabelRemove
+15/23 Test: Unlabel.UnlabelRemove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Unlabel.UnlabelRemove"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Unlabel.UnlabelRemove" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7695== Memcheck, a memory error detector
+==7695== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7695== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7695== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Unlabel.UnlabelRemove
+==7695== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Unlabel.UnlabelRemove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unlabel
+[ RUN      ] Unlabel.UnlabelRemove
+==7695== Conditional jump or move depends on uninitialised value(s)
+==7695==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7695==    by 0x125DE4: Unlabel_UnlabelRemove_Test::TestBody() (label_tests.cpp:468)
+==7695==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7695==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x1623D5: Run (gtest.cc:2508)
+==7695==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7695==    by 0x162534: Run (gtest.cc:2684)
+==7695==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7695==    by 0x16261C: Run (gtest.cc:2816)
+==7695==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7695==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7695==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7695==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7695==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7695== 
+==7695== Conditional jump or move depends on uninitialised value(s)
+==7695==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7695==    by 0x125DE4: Unlabel_UnlabelRemove_Test::TestBody() (label_tests.cpp:468)
+==7695==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7695==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x1623D5: Run (gtest.cc:2508)
+==7695==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7695==    by 0x162534: Run (gtest.cc:2684)
+==7695==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7695==    by 0x16261C: Run (gtest.cc:2816)
+==7695==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7695==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7695==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7695==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7695==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7695== 
+==7695== Conditional jump or move depends on uninitialised value(s)
+==7695==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7695==    by 0x125F98: Unlabel_UnlabelRemove_Test::TestBody() (label_tests.cpp:474)
+==7695==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7695==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x1623D5: Run (gtest.cc:2508)
+==7695==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7695==    by 0x162534: Run (gtest.cc:2684)
+==7695==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7695==    by 0x16261C: Run (gtest.cc:2816)
+==7695==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7695==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7695==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7695==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7695==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7695== 
+==7695== Conditional jump or move depends on uninitialised value(s)
+==7695==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7695==    by 0x126074: Unlabel_UnlabelRemove_Test::TestBody() (label_tests.cpp:478)
+==7695==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7695==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x1623D5: Run (gtest.cc:2508)
+==7695==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7695==    by 0x162534: Run (gtest.cc:2684)
+==7695==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7695==    by 0x16261C: Run (gtest.cc:2816)
+==7695==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7695==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7695==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7695==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7695==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7695==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7695== 
+[       OK ] Unlabel.UnlabelRemove (116 ms)
+[----------] 1 test from Unlabel (123 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (146 ms total)
+[  PASSED  ] 1 test.
+==7695== 
+==7695== HEAP SUMMARY:
+==7695==     in use at exit: 0 bytes in 0 blocks
+==7695==   total heap usage: 461 allocs, 461 frees, 132,138 bytes allocated
+==7695== 
+==7695== All heap blocks were freed -- no leaks are possible
+==7695== 
+==7695== Use --track-origins=yes to see where uninitialised values come from
+==7695== For lists of detected and suppressed errors, rerun with: -s
+==7695== ERROR SUMMARY: 6 errors from 4 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.14 sec
+----------------------------------------------------------
+Test Passed.
+"Unlabel.UnlabelRemove" end time: Jan 28 00:41 UTC
+"Unlabel.UnlabelRemove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/23 Testing: Label.AddRemoveAfterLabel
+16/23 Test: Label.AddRemoveAfterLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Label.AddRemoveAfterLabel"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Label.AddRemoveAfterLabel" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7696== Memcheck, a memory error detector
+==7696== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7696== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7696== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Label.AddRemoveAfterLabel
+==7696== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Label.AddRemoveAfterLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Label
+[ RUN      ] Label.AddRemoveAfterLabel
+==7696== Conditional jump or move depends on uninitialised value(s)
+==7696==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7696==    by 0x119B42: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:57)
+==7696==    by 0x1279C2: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:500)
+==7696==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7696==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7696==    by 0x1623D5: Run (gtest.cc:2508)
+==7696==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7696==    by 0x162534: Run (gtest.cc:2684)
+==7696==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7696==    by 0x16261C: Run (gtest.cc:2816)
+==7696==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7696==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7696==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7696==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7696==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7696==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7696== 
+==7696== Conditional jump or move depends on uninitialised value(s)
+==7696==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7696==    by 0x11A142: setupList1(LabelList&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >*, LabelList::MsgToken*, unsigned long, bool) (label_tests.cpp:61)
+==7696==    by 0x1279C2: Label_AddRemoveAfterLabel_Test::TestBody() (label_tests.cpp:500)
+==7696==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7696==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7696==    by 0x1623D5: Run (gtest.cc:2508)
+==7696==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7696==    by 0x162534: Run (gtest.cc:2684)
+==7696==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7696==    by 0x16261C: Run (gtest.cc:2816)
+==7696==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7696==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7696==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7696==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7696==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7696==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7696== 
+[       OK ] Label.AddRemoveAfterLabel (119 ms)
+[----------] 1 test from Label (125 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (150 ms total)
+[  PASSED  ] 1 test.
+==7696== 
+==7696== HEAP SUMMARY:
+==7696==     in use at exit: 0 bytes in 0 blocks
+==7696==   total heap usage: 486 allocs, 486 frees, 133,622 bytes allocated
+==7696== 
+==7696== All heap blocks were freed -- no leaks are possible
+==7696== 
+==7696== Use --track-origins=yes to see where uninitialised values come from
+==7696== For lists of detected and suppressed errors, rerun with: -s
+==7696== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.16 sec
+----------------------------------------------------------
+Test Passed.
+"Label.AddRemoveAfterLabel" end time: Jan 28 00:41 UTC
+"Label.AddRemoveAfterLabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/23 Testing: MsgToken.ComparisonBool
+17/23 Test: MsgToken.ComparisonBool
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.ComparisonBool"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"MsgToken.ComparisonBool" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7697== Memcheck, a memory error detector
+==7697== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7697== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7697== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.ComparisonBool
+==7697== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.ComparisonBool
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.ComparisonBool
+==7697== Conditional jump or move depends on uninitialised value(s)
+==7697==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7697==    by 0x12AC85: MsgToken_ComparisonBool_Test::TestBody() (label_tests.cpp:560)
+==7697==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7697==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7697==    by 0x1623D5: Run (gtest.cc:2508)
+==7697==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7697==    by 0x162534: Run (gtest.cc:2684)
+==7697==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7697==    by 0x16261C: Run (gtest.cc:2816)
+==7697==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7697==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7697==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7697==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7697==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7697==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7697== 
+==7697== Conditional jump or move depends on uninitialised value(s)
+==7697==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7697==    by 0x12AC85: MsgToken_ComparisonBool_Test::TestBody() (label_tests.cpp:560)
+==7697==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7697==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7697==    by 0x1623D5: Run (gtest.cc:2508)
+==7697==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7697==    by 0x162534: Run (gtest.cc:2684)
+==7697==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7697==    by 0x16261C: Run (gtest.cc:2816)
+==7697==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7697==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7697==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7697==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7697==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7697==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7697== 
+[       OK ] MsgToken.ComparisonBool (87 ms)
+[----------] 1 test from MsgToken (94 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (117 ms total)
+[  PASSED  ] 1 test.
+==7697== 
+==7697== HEAP SUMMARY:
+==7697==     in use at exit: 0 bytes in 0 blocks
+==7697==   total heap usage: 444 allocs, 444 frees, 131,000 bytes allocated
+==7697== 
+==7697== All heap blocks were freed -- no leaks are possible
+==7697== 
+==7697== Use --track-origins=yes to see where uninitialised values come from
+==7697== For lists of detected and suppressed errors, rerun with: -s
+==7697== ERROR SUMMARY: 3 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.12 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.ComparisonBool" end time: Jan 28 00:41 UTC
+"MsgToken.ComparisonBool" time elapsed: 00:00:01
+----------------------------------------------------------
+
+18/23 Testing: MsgToken.Label
+18/23 Test: MsgToken.Label
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Label"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"MsgToken.Label" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7698== Memcheck, a memory error detector
+==7698== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7698== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7698== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Label
+==7698== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Label
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Label
+==7698== Conditional jump or move depends on uninitialised value(s)
+==7698==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7698==    by 0x12CAEC: MsgToken_Label_Test::TestBody() (label_tests.cpp:610)
+==7698==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7698==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7698==    by 0x1623D5: Run (gtest.cc:2508)
+==7698==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7698==    by 0x162534: Run (gtest.cc:2684)
+==7698==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7698==    by 0x16261C: Run (gtest.cc:2816)
+==7698==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7698==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7698==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7698==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7698==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7698==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7698== 
+==7698== Conditional jump or move depends on uninitialised value(s)
+==7698==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7698==    by 0x12CAEC: MsgToken_Label_Test::TestBody() (label_tests.cpp:610)
+==7698==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7698==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7698==    by 0x1623D5: Run (gtest.cc:2508)
+==7698==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7698==    by 0x162534: Run (gtest.cc:2684)
+==7698==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7698==    by 0x16261C: Run (gtest.cc:2816)
+==7698==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7698==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7698==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7698==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7698==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7698==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7698== 
+[       OK ] MsgToken.Label (73 ms)
+[----------] 1 test from MsgToken (80 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (103 ms total)
+[  PASSED  ] 1 test.
+==7698== 
+==7698== HEAP SUMMARY:
+==7698==     in use at exit: 0 bytes in 0 blocks
+==7698==   total heap usage: 410 allocs, 410 frees, 129,779 bytes allocated
+==7698== 
+==7698== All heap blocks were freed -- no leaks are possible
+==7698== 
+==7698== Use --track-origins=yes to see where uninitialised values come from
+==7698== For lists of detected and suppressed errors, rerun with: -s
+==7698== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.11 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Label" end time: Jan 28 00:41 UTC
+"MsgToken.Label" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/23 Testing: MsgToken.Msg
+19/23 Test: MsgToken.Msg
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Msg"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"MsgToken.Msg" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7699== Memcheck, a memory error detector
+==7699== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7699== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7699== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Msg
+==7699== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Msg
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Msg
+==7699== Conditional jump or move depends on uninitialised value(s)
+==7699==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7699==    by 0x12D3F2: MsgToken_Msg_Test::TestBody() (label_tests.cpp:628)
+==7699==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7699==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7699==    by 0x1623D5: Run (gtest.cc:2508)
+==7699==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7699==    by 0x162534: Run (gtest.cc:2684)
+==7699==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7699==    by 0x16261C: Run (gtest.cc:2816)
+==7699==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7699==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7699==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7699==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7699==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7699==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7699== 
+==7699== Conditional jump or move depends on uninitialised value(s)
+==7699==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7699==    by 0x12D3F2: MsgToken_Msg_Test::TestBody() (label_tests.cpp:628)
+==7699==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7699==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7699==    by 0x1623D5: Run (gtest.cc:2508)
+==7699==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7699==    by 0x162534: Run (gtest.cc:2684)
+==7699==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7699==    by 0x16261C: Run (gtest.cc:2816)
+==7699==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7699==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7699==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7699==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7699==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7699==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7699== 
+[       OK ] MsgToken.Msg (106 ms)
+[----------] 1 test from MsgToken (112 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (136 ms total)
+[  PASSED  ] 1 test.
+==7699== 
+==7699== HEAP SUMMARY:
+==7699==     in use at exit: 0 bytes in 0 blocks
+==7699==   total heap usage: 412 allocs, 412 frees, 129,966 bytes allocated
+==7699== 
+==7699== All heap blocks were freed -- no leaks are possible
+==7699== 
+==7699== Use --track-origins=yes to see where uninitialised values come from
+==7699== For lists of detected and suppressed errors, rerun with: -s
+==7699== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.12 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Msg" end time: Jan 28 00:41 UTC
+"MsgToken.Msg" time elapsed: 00:00:01
+----------------------------------------------------------
+
+20/23 Testing: MsgToken.Ostream
+20/23 Test: MsgToken.Ostream
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.Ostream"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"MsgToken.Ostream" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7700== Memcheck, a memory error detector
+==7700== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7700== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7700== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.Ostream
+==7700== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.Ostream
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.Ostream
+==7700== Conditional jump or move depends on uninitialised value(s)
+==7700==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7700==    by 0x12DCD4: MsgToken_Ostream_Test::TestBody() (label_tests.cpp:648)
+==7700==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7700==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7700==    by 0x1623D5: Run (gtest.cc:2508)
+==7700==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7700==    by 0x162534: Run (gtest.cc:2684)
+==7700==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7700==    by 0x16261C: Run (gtest.cc:2816)
+==7700==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7700==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7700==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7700==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7700==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7700==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7700== 
+==7700== Conditional jump or move depends on uninitialised value(s)
+==7700==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7700==    by 0x12DCD4: MsgToken_Ostream_Test::TestBody() (label_tests.cpp:648)
+==7700==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7700==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7700==    by 0x1623D5: Run (gtest.cc:2508)
+==7700==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7700==    by 0x162534: Run (gtest.cc:2684)
+==7700==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7700==    by 0x16261C: Run (gtest.cc:2816)
+==7700==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7700==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7700==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7700==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7700==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7700==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7700== 
+[       OK ] MsgToken.Ostream (75 ms)
+[----------] 1 test from MsgToken (82 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (105 ms total)
+[  PASSED  ] 1 test.
+==7700== 
+==7700== HEAP SUMMARY:
+==7700==     in use at exit: 0 bytes in 0 blocks
+==7700==   total heap usage: 434 allocs, 434 frees, 130,535 bytes allocated
+==7700== 
+==7700== All heap blocks were freed -- no leaks are possible
+==7700== 
+==7700== Use --track-origins=yes to see where uninitialised values come from
+==7700== For lists of detected and suppressed errors, rerun with: -s
+==7700== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.12 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.Ostream" end time: Jan 28 00:41 UTC
+"MsgToken.Ostream" time elapsed: 00:00:01
+----------------------------------------------------------
+
+21/23 Testing: MsgToken.NextPrev
+21/23 Test: MsgToken.NextPrev
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=MsgToken.NextPrev"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"MsgToken.NextPrev" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7701== Memcheck, a memory error detector
+==7701== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7701== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7701== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=MsgToken.NextPrev
+==7701== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = MsgToken.NextPrev
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MsgToken
+[ RUN      ] MsgToken.NextPrev
+==7701== Conditional jump or move depends on uninitialised value(s)
+==7701==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7701==    by 0x12E504: MsgToken_NextPrev_Test::TestBody() (label_tests.cpp:669)
+==7701==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7701==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7701==    by 0x1623D5: Run (gtest.cc:2508)
+==7701==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7701==    by 0x162534: Run (gtest.cc:2684)
+==7701==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7701==    by 0x16261C: Run (gtest.cc:2816)
+==7701==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7701==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7701==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7701==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7701==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7701==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7701== 
+==7701== Conditional jump or move depends on uninitialised value(s)
+==7701==    at 0x13A9E9: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:328)
+==7701==    by 0x12E504: MsgToken_NextPrev_Test::TestBody() (label_tests.cpp:669)
+==7701==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7701==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7701==    by 0x1623D5: Run (gtest.cc:2508)
+==7701==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7701==    by 0x162534: Run (gtest.cc:2684)
+==7701==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7701==    by 0x16261C: Run (gtest.cc:2816)
+==7701==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7701==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7701==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7701==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7701==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7701==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7701== 
+[       OK ] MsgToken.NextPrev (78 ms)
+[----------] 1 test from MsgToken (85 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (109 ms total)
+[  PASSED  ] 1 test.
+==7701== 
+==7701== HEAP SUMMARY:
+==7701==     in use at exit: 0 bytes in 0 blocks
+==7701==   total heap usage: 434 allocs, 434 frees, 130,542 bytes allocated
+==7701== 
+==7701== All heap blocks were freed -- no leaks are possible
+==7701== 
+==7701== Use --track-origins=yes to see where uninitialised values come from
+==7701== For lists of detected and suppressed errors, rerun with: -s
+==7701== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.11 sec
+----------------------------------------------------------
+Test Passed.
+"MsgToken.NextPrev" end time: Jan 28 00:41 UTC
+"MsgToken.NextPrev" time elapsed: 00:00:01
+----------------------------------------------------------
+
+22/23 Testing: Remove.UnlinkNodeLabel
+22/23 Test: Remove.UnlinkNodeLabel
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Remove.UnlinkNodeLabel"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Remove.UnlinkNodeLabel" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7702== Memcheck, a memory error detector
+==7702== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7702== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7702== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Remove.UnlinkNodeLabel
+==7702== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Remove.UnlinkNodeLabel
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Remove
+[ RUN      ] Remove.UnlinkNodeLabel
+==7702== Conditional jump or move depends on uninitialised value(s)
+==7702==    at 0x13A8D8: LabelList::label(LabelList::MsgToken const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&) (labellist.cpp:308)
+==7702==    by 0x12F52B: Remove_UnlinkNodeLabel_Test::TestBody() (label_tests.cpp:699)
+==7702==    by 0x16E430: HandleSehExceptionsInMethodIfSupported<testing::Test, void> (gtest.cc:2433)
+==7702==    by 0x16E430: void testing::internal::HandleExceptionsInMethodIfSupported<testing::Test, void>(testing::Test*, void (testing::Test::*)(), char const*) (gtest.cc:2469)
+==7702==    by 0x1623D5: Run (gtest.cc:2508)
+==7702==    by 0x1623D5: testing::Test::Run() (gtest.cc:2498)
+==7702==    by 0x162534: Run (gtest.cc:2684)
+==7702==    by 0x162534: testing::TestInfo::Run() (gtest.cc:2657)
+==7702==    by 0x16261C: Run (gtest.cc:2816)
+==7702==    by 0x16261C: testing::TestSuite::Run() (gtest.cc:2795)
+==7702==    by 0x162B3B: testing::internal::UnitTestImpl::RunAllTests() (gtest.cc:5338)
+==7702==    by 0x16E9A0: HandleSehExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool> (gtest.cc:2433)
+==7702==    by 0x16E9A0: bool testing::internal::HandleExceptionsInMethodIfSupported<testing::internal::UnitTestImpl, bool>(testing::internal::UnitTestImpl*, bool (testing::internal::UnitTestImpl::*)(), char const*) (gtest.cc:2469)
+==7702==    by 0x162D6B: testing::UnitTest::Run() (gtest.cc:4925)
+==7702==    by 0x118AF3: main (in /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests)
+==7702== 
+[       OK ] Remove.UnlinkNodeLabel (174 ms)
+[----------] 1 test from Remove (185 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (221 ms total)
+[  PASSED  ] 1 test.
+==7702== 
+==7702== HEAP SUMMARY:
+==7702==     in use at exit: 0 bytes in 0 blocks
+==7702==   total heap usage: 440 allocs, 440 frees, 131,025 bytes allocated
+==7702== 
+==7702== All heap blocks were freed -- no leaks are possible
+==7702== 
+==7702== Use --track-origins=yes to see where uninitialised values come from
+==7702== For lists of detected and suppressed errors, rerun with: -s
+==7702== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.40 sec
+----------------------------------------------------------
+Test Passed.
+"Remove.UnlinkNodeLabel" end time: Jan 28 00:41 UTC
+"Remove.UnlinkNodeLabel" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/23 Testing: Random.Random
+23/23 Test: Random.Random
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw1/hw1_tests/label_tests/label_tests" "--gtest_filter=Random.Random"
+Directory: /work/hw-melgart/hw1/hw1_tests/label_tests
+"Random.Random" start time: Jan 28 00:41 UTC
+Output:
+----------------------------------------------------------
+==7703== Memcheck, a memory error detector
+==7703== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==7703== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==7703== Command: /work/hw-melgart/hw1/hw1_tests/label_tests/label_tests --gtest_filter=Random.Random
+==7703== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = Random.Random
+[==========] Running 0 tests from 0 test suites.
+[==========] 0 tests from 0 test suites ran. (16 ms total)
+[  PASSED  ] 0 tests.
+==7703== 
+==7703== HEAP SUMMARY:
+==7703==     in use at exit: 0 bytes in 0 blocks
+==7703==   total heap usage: 371 allocs, 371 frees, 126,886 bytes allocated
+==7703== 
+==7703== All heap blocks were freed -- no leaks are possible
+==7703== 
+==7703== For lists of detected and suppressed errors, rerun with: -s
+==7703== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.11 sec
+----------------------------------------------------------
+Test Passed.
+"Random.Random" end time: Jan 28 00:41 UTC
+"Random.Random" time elapsed: 00:00:01
+----------------------------------------------------------
+
+End testing: Jan 28 00:41 UTC
