@@ -135,66 +135,6 @@ void MDParser::parse(std::istream& istr, std::set<std::string>& allSearchableTer
     }
     link = "";
         
-//        if (!isalnum(c))
-//        {
-            //checks to see if it is starting a link or ending
-//            if (c == '[')
-//            {
-//                while (c != ']')
-//                {
-//                    term += c;
-//                    c = istr.get();
-//                }
-//                c = istr.get();
-//                if (c == '(')
-//                {
-//                    while (c != ')')
-//                    {
-//                        link += c;
-//                        c = istr.get();
-//                    }
-//                    c = istr.get();
-//                    continue;
-//                }
-//                if(term != "")
-//                {
-//                    term = conv_to_lower(term);
-//                    allSearchableTerms.insert(term);
-//                }
-//                term = "";
-//
-//                if (link != "")
-//                {
-//                    link = conv_to_lower(link);
-//                    allOutgoingLinks.insert(link);
-//                }
-//                link = "";
-//            }
-//            else
-//            {
-//                if(term != "")
-//                {
-//                    term = conv_to_lower(term);
-//                    allSearchableTerms.insert(term);
-//                }
-//                term = "";
-//
-//                if (link != "")
-//                {
-//                    link = conv_to_lower(link);
-//                    allOutgoingLinks.insert(link);
-//                }
-//                link = "";
-//                c = istr.get();
-//            }
-//        }
-//        else
-//        {
-//            term += c;
-//            c = istr.get();
-//        }
-   // }
-        
 }
 
 // To be completed
