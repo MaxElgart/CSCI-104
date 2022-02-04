@@ -1,0 +1,6 @@
+Problem 4
+
+	1. A list of strings, this would be a list because the steps for baking the cake need to be in order.
+	2. A set of strings, this would be a set of strings because a set doesn't allow for duplicates and we don't want duplicates, also order doesn't matter since we are just storing the names
+	3. A Map with key of the players name and value of the team name, this is a map of 2 strings, the reason that the player's name is the key is that we can't make the team name the key for every player because there will be players on the same team and there can't be 2 mappings with the same key value
+	4. A map with key of the file extension and value of a set of strings, the key would be the file extension because we are associating individual file extensions with programs that can open them, and the value would be a set of strings because the order doesn't matter for what can open the file, and with the set we can have a bunch of different programs that can open the file with no repeats for the same file extension.
