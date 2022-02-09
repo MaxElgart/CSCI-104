@@ -1,3 +1,19 @@
+Problem 1
+	
+	a)
+	b)
+	c)
+	d)
+	e)
+	f)
+
+Problem 2
+	
+	a)
+	b)
+	c)
+	d)
+
 Problem 4
 
 	1. A list of strings, this would be a list because the steps for baking the cake need to be in order.

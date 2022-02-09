@@ -147,6 +147,7 @@ private:
     std::set<std::string> allSearchableTerms;
     std::set<std::string> allOutgoingLinks;
     std::map<std::string, WebPage*> pages_;
+    std::map<std::string, std::set<WebPage*>> termWeb;
 
 
 

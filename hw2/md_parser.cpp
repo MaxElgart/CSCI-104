@@ -147,8 +147,9 @@ std::string MDParser::display_text(std::istream& istr)
     bool checkLink = false;
 
     // Continue reading from the file until input fails.
-    while (!istr.fail()) {
-        if (b == ']' && c == '(')
+    while (!istr.fail())
+    {
+        if (b == ']' && c == '(' && checkLink == false)
         {
             checkLink = true;
         }

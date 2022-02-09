@@ -20,17 +20,21 @@ int main(int argc, char* argv[])
 
     // ---------------------- [TO BE COMPLETED] -------------------------------
     // Create and register appropriate parsers for .md and .txt files
-
-
+    MDParser* md = new MDParser;
+    TXTParser* txt = new TXTParser;
+    seng.register_parser("md", md);
+    seng.register_parser("txt", txt);
     // Create the SearchUI object
     SearchUI ui(&seng);
 
     // Create and add appropriate Command Handlers to the SearchUI
     ui.add_handler(new QuitHandler);
     ui.add_handler(new PrintHandler);
-
-
-
+    ui.add_handler(new AndHandler);
+    ui.add_handler(new OrHandler);
+    ui.add_handler(new DiffHandler);
+    ui.add_handler(new IncomingHandler);
+    ui.add_handler(new OutgoingHandler);
     // ------------------------------------------------------------------------
 
     try {

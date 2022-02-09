@@ -70,6 +70,45 @@ protected:
 /***********    AND, OR, and DIFF handlers                             *******/
 /*********** Then define their implementation in cmdhandler.cpp        *******/
 
+class AndHandler : public Handler
+{
+public:
+    AndHandler();
+    ~AndHandler();
+    AndHandler(Handler* next);
 
+protected:
 
+    virtual bool canHandle(const std::string& cmd) const;
+    virtual HANDLER_STATUS_T process(SearchEng* eng, std::istream& instr, std::ostream& ostr);
+    AndWebPageSetCombiner* andCombiner;
+};
+
+class OrHandler : public Handler
+{
+public:
+    OrHandler();
+    ~OrHandler();
+    OrHandler(Handler* next);
+
+protected:
+
+    virtual bool canHandle(const std::string& cmd) const;
+    virtual HANDLER_STATUS_T process(SearchEng* eng, std::istream& instr, std::ostream& ostr);
+    OrWebPageSetCombiner* orCombiner;
+};
+
+class DiffHandler : public Handler
+{
+public:
+    DiffHandler();
+    ~DiffHandler();
+    DiffHandler(Handler* next);
+
+protected:
+
+    virtual bool canHandle(const std::string& cmd) const;
+    virtual HANDLER_STATUS_T process(SearchEng* eng, std::istream& instr, std::ostream& ostr);
+    DiffWebPageSetCombiner* diffCombiner;
+};
 #endif
