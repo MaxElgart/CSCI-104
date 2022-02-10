@@ -1,18 +1,18 @@
 Problem 1
 	
-	a)
-	b)
-	c)
-	d)
-	e)
-	f)
+	a) Untracked
+	b) Both are Untracked
+	c) Both are now staged
+	d) Both are unmodified
+	e) fun_problem.txt is modified README.md is staged, and fun_problem.txt is blank because the last commit fun_problem.txt was blank
+	f) staged
 
 Problem 2
 	
-	a)
-	b)
-	c)
-	d)
+	a) Tab
+	b) rm -f *.o *~ shape1 shape2 *~         $(CXX) $(CXXFLAGS) $^ -o $@ $(LIBS)
+	c) The .PHONY rule shows that the target is not a name of a file
+	d) 2. Makefile and 4. makefile
 
 Problem 4
 
