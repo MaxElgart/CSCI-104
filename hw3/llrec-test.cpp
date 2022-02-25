@@ -112,7 +112,9 @@ int main(int argc, char* argv[])
     cout << endl << "Smaller list: ";
     print(smaller);
 
-
+    dealloc(head);
+    dealloc(smaller);
+    dealloc(larger);
     
     return 0;
 

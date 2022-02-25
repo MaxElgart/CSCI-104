@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/work/hw-melgart/hw3/board.h
+iostream
+-
+map
+-
+vector
+-
+vehicle.h
+/work/hw-melgart/hw3/vehicle.h
+stack.h
+/work/hw-melgart/hw3/stack.h
+
+/work/hw-melgart/hw3/heur.h
+board.h
+/work/hw-melgart/hw3/board.h
+
+/work/hw-melgart/hw3/move.cpp
+move.h
+/work/hw-melgart/hw3/move.h
+
+/work/hw-melgart/hw3/move.h
+functional
+-
+heur.h
+/work/hw-melgart/hw3/heur.h
+board.h
+/work/hw-melgart/hw3/board.h
+
+/work/hw-melgart/hw3/stack.h
+vector
+-
+stdexcept
+-
+
+/work/hw-melgart/hw3/vehicle.h
+

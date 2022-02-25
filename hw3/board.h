@@ -5,6 +5,7 @@
 #include <vector>
 #include "vehicle.h"
 // Add other includes as necessary
+#include "stack.h"
 
 class Board {
 public:
@@ -165,6 +166,7 @@ private:
 
     ///  You may ADD data members below as necessary, but should not alter
     ///  those already given
+    Stack<std::map<Vehicle::VID_T, Vehicle>> prevMoves;
 
 
 };

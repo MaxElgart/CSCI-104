@@ -1,6 +1,5 @@
 #include "move.h"
 
-
 // Complete
 Move::Move(Board* board)
 {
@@ -15,24 +14,39 @@ Move::Move(Board* board)
 // To be completed
 Move::Move(const Board::MovePair& move, Board* b,  Move *parent)
 {
-
+    m = move;
+    this->b = b;
+    g = parent->g + 1;
+    prev = parent;
 }
 
 // To be completed
 Move::~Move()
 {
-
+    
 }
 
 // To be completed
 bool Move::operator<(const Move& rhs) const
 {
-    // Replace this
+    if ((g + h) < (rhs.g + rhs.h))
+    {
+        return true;
+    }
+    else if((g + h) == (rhs.g + rhs.h) && h < rhs.h)
+    {
+        return true;
+    }
+    else if((g + h) == (rhs.g + rhs.h) && h == rhs.h && b < rhs.b)
+    {
+        return true;
+    }
+    
     return false;
 }
 
 // To be completed
 void Move::score(Heuristic *heur) 
 {
-
+    h = heur->compute(*b);
 }

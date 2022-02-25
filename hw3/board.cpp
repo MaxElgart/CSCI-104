@@ -220,6 +220,7 @@ bool Board::isLegalMove(VID_T vid, int amount) const
 bool Board::move(VID_T vid, int amount)
 {
     if(isLegalMove(vid, amount)) {
+        prevMoves.push_back(vehicles_);
         Vehicle& v = vehicles_[vid];
         if(v.direction == Vehicle::VERTICAL) {
             v.startr += amount;
@@ -228,6 +229,7 @@ bool Board::move(VID_T vid, int amount)
             v.startc += amount;
         }
         updateBoard();
+        //push back vehicles_ to stack
         return true;
     }
     else {
@@ -240,21 +242,54 @@ bool Board::move(VID_T vid, int amount)
 // To be completed
 void Board::undoLastMove()
 {
-
+    // change vehicle location back then call updateBoard()
+    vehicles_ = prevMoves.top();
+    prevMoves.pop();
+    updateBoard();
 }
 
 // To be completed
 Board::MovePairList Board::potentialMoves() const
 {
     // To avoid compile errors in skeletong - Replace this
-    return Board::MovePairList();
+    MovePairList allMoves;
+    
+    for (map<Vehicle::VID_T, Vehicle>::const_iterator it = vehicles_.begin();
+         it != vehicles_.end(); it++)
+    {
+        for (int i = 1; i < grid_.size(); i++)
+        {
+            if (isLegalMove(it->first, i))
+            {
+                allMoves.push_back(std::make_pair(it->second.id, i));
+            }
+        }
+        for (int i = -1; i > -(grid_.size()); i--)
+        {
+            if (isLegalMove(it->first, i))
+            {
+                allMoves.push_back(std::make_pair(it->second.id, i));
+            }
+        }
+    }
+    
+    
+    return allMoves;
 
 }
 
 // To be completed
 bool Board::operator<(const Board& other) const
 {
-    // To avoid compile errors in skeletong - Replace this
+
+    stringstream s1;
+    stringstream s2;
+    s1 << *this;
+    s2 << other;
+    if (s1.str() < s2.str())
+    {
+        return true;
+    }
     return false;
 }
 
