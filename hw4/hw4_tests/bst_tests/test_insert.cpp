@@ -168,10 +168,9 @@ TEST(BSTInsert, Random50x30ele)
 
 	for(size_t counter = 0; counter < numTrials*2; counter+= 2)
 	{
-		std::set<int> randomData = makeRandomIntSet(numElements, seeds.at(counter));
+        std::set<int> randomData = makeRandomIntSet(numElements, seeds.at(counter));
 		fillTree(testTree, randomData, seeds.at(counter + 1));
 		EXPECT_TRUE(verifyBST(testTree, randomData));
-
 		testTree.clear();
 	}
 

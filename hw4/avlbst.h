@@ -137,9 +137,45 @@ protected:
     virtual void nodeSwap( AVLNode<Key,Value>* n1, AVLNode<Key,Value>* n2);
 
     // Add helper functions here
-
-
+    bool isLeftChild(AVLNode<Key,Value>* node, AVLNode<Key,Value>* parent);
+    bool isRightChild(AVLNode<Key,Value>* node, AVLNode<Key,Value>* parent);
+    void rotateLeft(AVLNode<Key,Value>* node);
+    void rotateRight(AVLNode<Key,Value>* node);
 };
+
+template<class Key, class Value>
+bool AVLTree<Key, Value>::isLeftChild(AVLNode<Key,Value>* node, AVLNode<Key,Value>* parent)
+{
+    if (node == parent->getLeft())
+    {
+        return true;
+    }
+    
+    return false;
+}
+
+template<class Key, class Value>
+bool AVLTree<Key, Value>::isRightChild(AVLNode<Key,Value>* node, AVLNode<Key,Value>* parent)
+{
+    if (node == parent->getRight())
+    {
+        return true;
+    }
+    
+    return false;
+}
+
+template<class Key, class Value>
+void AVLTree<Key, Value>::rotateLeft(AVLNode<Key,Value>* node)
+{
+    
+}
+
+template<class Key, class Value>
+void AVLTree<Key, Value>::rotateRight(AVLNode<Key,Value>* node)
+{
+    
+}
 
 /*
  * Recall: If key is already in the tree, you should 
@@ -149,6 +185,44 @@ template<class Key, class Value>
 void AVLTree<Key, Value>::insert (const std::pair<const Key, Value> &new_item)
 {
     // TODO
+    if (this->root_ == nullptr)
+    {
+        Node<Key, Value>* newNode = new Node<Key, Value>(keyValuePair.first, keyValuePair.second, nullptr);
+        root_ = newNode;
+        return;
+    }
+    
+    Node<Key, Value>* temp = root_;
+    
+    while (temp != nullptr)
+    {
+//        std::cout << temp->getKey() << std::endl;
+        if (keyValuePair.first > temp->getKey())
+        {
+            if (temp->getRight() == nullptr)
+            {
+                Node<Key, Value>* newNode = new Node<Key, Value>(keyValuePair.first, keyValuePair.second, temp);
+                temp->setRight(newNode);
+                break;
+            }
+            temp = temp->getRight();
+        }
+        else if(keyValuePair.first == temp->getKey())
+        {
+            temp->setValue(keyValuePair.second);
+            break;
+        }
+        else
+        {
+            if (temp->getLeft() == nullptr)
+            {
+                Node<Key, Value>* newNode = new Node<Key, Value>(keyValuePair.first, keyValuePair.second, temp);
+                temp->setLeft(newNode);
+                break;
+            }
+            temp = temp->getLeft();
+        }
+    }
 }
 
 /*

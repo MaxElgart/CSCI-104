@@ -1,17 +1,3 @@
-3:EqualPaths.RootLeft
-4:EqualPaths.RootRight
-6:EqualPaths.TrueTest1
-7:EqualPaths.TrueTest2
-8:EqualPaths.TrueTest3
-28:BSTRemove.EmptyTree
-29:BSTRemove.NodeMismatch
-30:BSTRemove.SingleRemove
-33:BSTRemove.TwoChildrenRemove_3Node
-34:BSTRemove.TwoChildrenRemove_4Node
-35:BSTRemove.Random50x30ele
-36:BSTStress.InsertRemove
-37:BSTStress.Remove
-42:BSTBalance.UnbalancedSubtree
 45:AVLInsert.OneNode
 46:AVLInsert.DoubleInsertLeft
 47:AVLInsert.DoubleInsertRight

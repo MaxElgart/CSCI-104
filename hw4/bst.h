@@ -490,6 +490,7 @@ void BinarySearchTree<Key, Value>::insert(const std::pair<const Key, Value> &key
     
     while (temp != nullptr)
     {
+//        std::cout << temp->getKey() << std::endl;
         if (keyValuePair.first > temp->getKey())
         {
             if (temp->getRight() == nullptr)
@@ -555,6 +556,7 @@ void BinarySearchTree<Key, Value>::remove(const Key& key)
         if (remNode == root_)
         {
             delete remNode;
+            root_ = nullptr;
         }
         else if(remNode == remNode->getParent()->getLeft())
         {
@@ -650,6 +652,7 @@ void BinarySearchTree<Key, Value>::clear()
 {
     // TODO
     clearHelp(root_);
+    root_ = nullptr;
 }
 
 //helper function for clear
