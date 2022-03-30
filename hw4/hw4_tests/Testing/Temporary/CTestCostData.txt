@@ -1,86 +1,67 @@
-EqualPaths.Empty 3 0.404968
-EqualPaths.RootOnly 3 0.358842
-EqualPaths.RootLeft 1 1.09428
-EqualPaths.RootRight 1 1.06999
-EqualPaths.Full1 3 0.356276
-EqualPaths.TrueTest1 1 1.10266
-EqualPaths.TrueTest2 1 1.09596
-EqualPaths.TrueTest3 1 1.10212
-EqualPaths.TrueTest4 3 0.358023
-EqualPaths.FalseTest1 3 0.356829
-EqualPaths.FalseTest2 3 0.359241
-EqualPaths.FalseTest3 3 0.370051
-BST.ConstructionDestruction 3 0.372698
-BSTInsert.JustRoot 3 0.374851
-BSTInsert.DoubleInsertLeft 3 0.389729
-BSTInsert.DoubleInsertRight 3 0.382723
-BSTInsert.InsertZigZigLeft 3 0.383306
-BSTInsert.InsertZigZigRight 3 0.39447
-BSTInsert.InsertZigZagLeft 3 0.386224
-BSTInsert.InsertZigZagRight 3 0.390834
-BSTInsert.7Elements 3 0.384583
-BSTClear.Clear 3 0.392566
-BSTFind.InvalidFind 2 0.582439
-BSTInsert.Duplicates 3 0.388103
-BSTInsert.BasicRandom 3 0.39417
-BSTInsert.Random50x30ele 3 0.606148
-BSTInsert.Random3x5000ele 3 1.25676
-BSTRemove.EmptyTree 1 1.13679
-BSTRemove.NodeMismatch 1 1.19827
-BSTRemove.SingleRemove 1 1.15436
-BSTRemove.RightChildRemove 2 0.589304
-BSTRemove.LeftChildRemove 2 0.57916
-BSTRemove.TwoChildrenRemove_3Node 1 1.14598
-BSTRemove.TwoChildrenRemove_4Node 1 1.11788
-BSTRemove.Random50x30ele 1 1.86653
-BSTStress.InsertRemove 1 1.33611
-BSTStress.Remove 1 1.25409
-BSTBalance.EmptyTree 3 0.359627
-BSTBalance.OneNode 3 0.357426
-BSTBalance.3Nodes_Unbalanced 3 0.363803
-BSTBalance.3Nodes_Balanced 3 0.359698
-BSTBalance.UnbalancedSubtree 1 1.16901
-BSTBalance.Random50x30ele 3 0.553139
-AVLBST.ConstructionDestruction 3 0.581206
-AVLInsert.OneNode 0 0
-AVLInsert.DoubleInsertLeft 0 0
-AVLInsert.DoubleInsertRight 0 0
-AVLInsert.InsertZigZigLeft 0 0
-AVLInsert.InsertZigZigRight 0 0
-AVLInsert.InsertZigZagLeft 0 0
-AVLInsert.InsertZigZagRight 0 0
-AVLInsert.7Elements 0 0
-AVLClear.Clear 3 0.362229
-AVLInsert.Duplicates 0 0
-AVLInsert.Random50x30ele 0 0
-AVLInsert.Random3x5000ele 0 0
-AVLRemove.EmptyTree 3 0.371966
-AVLRemove.NodeMismatch 0 0
-AVLRemove.SingleRemove 3 0.354615
-AVLRemove.RightChildRemove 0 0
-AVLRemove.LeftChildRemove 0 0
-AVLRemove.TwoChildrenRemove_3Node 0 0
-AVLRemove.TwoChildrenRemove_4Node 0 0
-AVLRemove.Random50x30ele 0 0
-AVLStress.InsertRemove 0 0
-AVLStress.Remove 0 0
+EqualPaths.Empty 6 0.176612
+EqualPaths.RootOnly 6 0.170434
+EqualPaths.RootLeft 4 0.25954
+EqualPaths.RootRight 4 0.254905
+EqualPaths.Full1 6 0.174161
+EqualPaths.TrueTest1 4 0.252748
+EqualPaths.TrueTest2 4 0.256528
+EqualPaths.TrueTest3 4 0.259701
+EqualPaths.TrueTest4 6 0.173522
+EqualPaths.FalseTest1 6 0.21428
+EqualPaths.FalseTest2 6 0.190291
+EqualPaths.FalseTest3 6 0.178155
+BST.ConstructionDestruction 6 0.181406
+BSTInsert.JustRoot 6 0.186268
+BSTInsert.DoubleInsertLeft 6 0.18455
+BSTInsert.DoubleInsertRight 6 0.181066
+BSTInsert.InsertZigZigLeft 6 0.187479
+BSTInsert.InsertZigZigRight 6 0.192902
+BSTInsert.InsertZigZagLeft 6 0.183701
+BSTInsert.InsertZigZagRight 6 0.180194
+BSTInsert.7Elements 6 0.184319
+BSTClear.Clear 6 0.178396
+BSTFind.InvalidFind 5 0.21351
+BSTInsert.Duplicates 6 0.200643
+BSTInsert.BasicRandom 6 0.184867
+BSTInsert.Random50x30ele 6 0.254719
+BSTInsert.Random3x5000ele 6 0.421519
+BSTRemove.EmptyTree 4 0.26594
+BSTRemove.NodeMismatch 4 0.272856
+BSTRemove.SingleRemove 4 0.266941
+BSTRemove.RightChildRemove 5 0.219358
+BSTRemove.LeftChildRemove 5 0.242616
+BSTRemove.TwoChildrenRemove_3Node 4 0.351345
+BSTRemove.TwoChildrenRemove_4Node 4 0.308429
+BSTRemove.Random50x30ele 4 0.426365
+BSTStress.InsertRemove 4 0.29539
+BSTStress.Remove 4 0.307937
+BSTBalance.EmptyTree 6 0.179226
+BSTBalance.OneNode 6 0.179766
+BSTBalance.3Nodes_Unbalanced 6 0.177835
+BSTBalance.3Nodes_Balanced 6 0.188923
+BSTBalance.UnbalancedSubtree 4 0.289654
+BSTBalance.Random50x30ele 6 0.230624
+AVLBST.ConstructionDestruction 6 0.186843
+AVLInsert.OneNode 3 0.367117
+AVLInsert.DoubleInsertLeft 3 0.429494
+AVLInsert.DoubleInsertRight 3 0.382425
+AVLInsert.InsertZigZigLeft 3 0.358931
+AVLInsert.InsertZigZigRight 3 0.353906
+AVLInsert.InsertZigZagLeft 3 0.357888
+AVLInsert.InsertZigZagRight 3 0.371606
+AVLInsert.7Elements 3 0.361106
+AVLClear.Clear 6 0.177675
+AVLInsert.Duplicates 3 0.36187
+AVLInsert.Random50x30ele 3 0.461404
+AVLInsert.Random3x5000ele 3 0.878884
+AVLRemove.EmptyTree 6 0.175502
+AVLRemove.NodeMismatch 3 0.37097
+AVLRemove.SingleRemove 6 0.210547
+AVLRemove.RightChildRemove 2 0.554369
+AVLRemove.LeftChildRemove 2 0.552692
+AVLRemove.TwoChildrenRemove_3Node 3 0.391214
+AVLRemove.TwoChildrenRemove_4Node 3 0.399949
+AVLRemove.Random50x30ele 1 2.04062
+AVLStress.InsertRemove 1 1.20009
+AVLStress.Remove 2 0.601895
 ---
-AVLInsert.OneNode
-AVLInsert.DoubleInsertLeft
-AVLInsert.DoubleInsertRight
-AVLInsert.InsertZigZigLeft
-AVLInsert.InsertZigZigRight
-AVLInsert.InsertZigZagLeft
-AVLInsert.InsertZigZagRight
-AVLInsert.7Elements
-AVLInsert.Duplicates
-AVLInsert.Random50x30ele
-AVLInsert.Random3x5000ele
-AVLRemove.NodeMismatch
-AVLRemove.RightChildRemove
-AVLRemove.LeftChildRemove
-AVLRemove.TwoChildrenRemove_3Node
-AVLRemove.TwoChildrenRemove_4Node
-AVLRemove.Random50x30ele
-AVLStress.InsertRemove
-AVLStress.Remove
