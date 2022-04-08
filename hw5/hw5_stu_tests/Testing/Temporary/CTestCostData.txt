@@ -1,0 +1,25 @@
+Wordle.Empty 4 1.91866
+Wordle.NoSolutions 4 1.8865
+Wordle.OneLetterUnconstrained 4 1.8508
+Wordle.OneLetterConstrained 4 2.00923
+Wordle.TwoLetterUnconstrained 4 1.87175
+Wordle.TwoLetterConstrained 4 1.85263
+Wordle.ThreeLetterFull 4 2.28557
+Wordle.OneOption 4 1.80685
+Wordle.Nominal1 4 2.33677
+Wordle.Nominal2 4 1.90451
+Wordle.Nominal3 4 1.86707
+Wordle.Long 2 9.61983
+Schedule.SimpleSol1 0 0
+Schedule.SimpleNoSolMaxShifts 4 0.253325
+Schedule.SimpleNoSolNoAvail1 4 0.25654
+Schedule.SimpleNoSolNoAvail2 4 0.258367
+Schedule.SimpleNoSolNoAvail3 4 0.261984
+Schedule.Nominal1 0 0
+Schedule.Nominal1NoSol1 4 0.254977
+Schedule.Nominal1NoSol2 4 0.254692
+Schedule.Nominal2 0 0
+---
+Schedule.SimpleSol1
+Schedule.Nominal1
+Schedule.Nominal2
