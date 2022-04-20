@@ -21,34 +21,35 @@ struct MyStringHash {
     {
         // Add your code here
         unsigned long long w[5] = {0, 0, 0, 0, 0};
-        
-        if (k.size() <= 6)
+        int size = k.size();
+        if (size <= 6)
         {
-            int j = 0;
-            for (int i = k.size() - 1; i >= 0; i--)
+            for (int i = 0; i <= size - 2; i++)
             {
-                w[4] += letterDigitToNumber(k[i])*pow(36, j);
-                j++;
+                w[4] = 36*(w[4] + letterDigitToNumber(k[i]));
             }
+            w[4] += letterDigitToNumber(k[size - 1]);
         }
         else
         {
             int pos = 4;
-            for (int i = k.size(); i >= 0; i -= 6)
+            for (int i = size; i > 0; i -= 6)
             {
                 if (i - 6 < 0)
                 {
-                    for (int j = 0; j < i; j++)
+                    for (int j = i - 1; j > 0; j--)
                     {
-                        w[pos] += letterDigitToNumber(k[i - j - 1])*pow(36, j);
+                        w[pos] = 36*(w[pos] + letterDigitToNumber(k[i - j - 1]));
                     }
+                    w[pos] += letterDigitToNumber(k[i - 1]);
                 }
                 else
                 {
-                    for (int j = 0; j < 6; j++)
+                    for (int j = 5; j > 0; j--)
                     {
-                        w[pos] += letterDigitToNumber(k[i - j - 1])*pow(36, j);
+                        w[pos] = 36*(w[pos] + letterDigitToNumber(k[i - j - 1]));
                     }
+                    w[pos] += letterDigitToNumber(k[i - 1]);
                 }
                 pos--;
             }
