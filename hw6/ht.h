@@ -35,7 +35,7 @@ struct LinearProber : public Prober<KeyType> {
     {
         // Complete the condition below that indicates failure
         // to find the key or an empty slot
-        if(this->numProbes_ > this->m_) {
+        if(this->numProbes_ >= this->m_) {
             return this->npos;
         }
         HASH_INDEX_T loc = (this->start_ + this->numProbes_) % this->m_;
@@ -102,9 +102,14 @@ public:
     // To be completed
     HASH_INDEX_T next() 
     {
-
-
-
+        if(this->numProbes_ >= this->m_)
+        {
+            return this->npos;
+        }
+//        int m2 = findModulusToUseFromTableSize(this->m_);
+        HASH_INDEX_T loc = (this->start_ + dhstep_*this->numProbes_) % this->m_;
+        this->numProbes_++;
+        return loc;
     }
 };
 
@@ -270,7 +275,8 @@ private:
     HASH_INDEX_T mIndex_;  // index to CAPACITIES
 
     // ADD MORE DATA MEMBERS HERE, AS NECESSARY
-
+    double addedItems;
+    double alpha;
 };
 
 // ----------------------------------------------------------------------------
@@ -293,41 +299,99 @@ HashTable<K,V,Prober,Hash,KEqual>::HashTable(
        :  hash_(hash), kequal_(kequal), prober_(prober)
 {
     // Initialize any other data members as necessary
-
+           table_.resize(CAPACITIES[0]);
+           mIndex_ = 0;
+           addedItems = 0;
+           alpha = resizeAlpha;
 }
 
 // To be completed
 template<typename K, typename V, typename Prober, typename Hash, typename KEqual>
 HashTable<K,V,Prober,Hash,KEqual>::~HashTable()
 {
-
+    for (int i = 0; i < table_.size(); i++)
+    {
+        if (table_[i] == nullptr)
+        {
+            continue;
+        }
+        else
+        {
+            delete table_[i];
+        }
+    }
 }
 
 // To be completed
 template<typename K, typename V, typename Prober, typename Hash, typename KEqual>
 bool HashTable<K,V,Prober,Hash,KEqual>::empty() const
 {
-    return table_.empty();
+    for (int i = 0; i < table_.size(); i++)
+    {
+        if (table_[i] == nullptr)
+        {
+            continue;
+        }
+        else if(table_[i]->deleted)
+        {
+            continue;
+        }
+        else if(table_[i]->deleted == false)
+        {
+            return false;
+        }
+    }
+    
+    return true;
 }
 
 // To be completed
 template<typename K, typename V, typename Prober, typename Hash, typename KEqual>
 size_t HashTable<K,V,Prober,Hash,KEqual>::size() const
 {
-    return table_.size();
+    int count = 0;
+    for (int i = 0; i < table_.size(); i++)
+    {
+        if (table_[i] == nullptr)
+        {
+            continue;
+        }
+        else if(table_[i]->deleted)
+        {
+            continue;
+        }
+        else if(table_[i]->deleted == false)
+        {
+            count++;
+        }
+    }
+    return count;
 }
 
 // To be completed
 template<typename K, typename V, typename Prober, typename Hash, typename KEqual>
 void HashTable<K,V,Prober,Hash,KEqual>::insert(const ItemType& p)
 {
+    if (this->addedItems/table_.size() >= alpha)
+    {
+        resize();
+    }
     HASH_INDEX_T loc = probe(p.first);
     if (loc == npos)
     {
         throw std::logic_error("Something went wrong");
     }
-    HashItem* newHash = new HashItem(p);
-    table_[loc] = newHash;
+    
+    if (table_[loc] != nullptr)
+    {
+        table_[loc]->item.second = p.second;
+    }
+    else
+    {
+        HashItem* newHash = new HashItem(p);
+        table_[loc] = newHash;
+        this->addedItems++;
+    }
 }
 
 // To be completed
@@ -338,6 +402,10 @@ void HashTable<K,V,Prober,Hash,KEqual>::remove(const KeyType& key)
     if (loc == npos)
     {
         throw std::logic_error("Something went wrong");
+    }
+    else if(table_[loc] == nullptr)
+    {
+        return;
     }
     table_[loc]->deleted = true;
 }
@@ -418,18 +486,29 @@ void HashTable<K,V,Prober,Hash,KEqual>::resize()
     {
         std::logic_error("No More Capacities Exist");
     }
-    
+    this->addedItems = 0;
+    std::vector<HashItem*> newTable(CAPACITIES[mIndex_ - 1]);
+    newTable = table_;
+    table_.clear();
     table_.resize(CAPACITIES[mIndex_]);
-    for (int i = 0; i < table_.size(); i++)
+    
+    for (int i = 0; i < newTable.size(); i++)
     {
-        if (table_[i]->deleted)
+        if (newTable[i] == nullptr)
         {
-            delete table_[i];
             continue;
         }
-        else
+        else if (newTable[i]->deleted)
         {
-            insert(table_[i]->item);
+            delete newTable[i];
+            continue;
+        }
+        else if (newTable[i]->deleted == false)
+        {
+//            insert(newTable[i]->item);
+            HASH_INDEX_T loc = probe(newTable[i]->item.first);
+            table_[loc] = newTable[i];
+            this->addedItems++;
         }
     }
 }
