@@ -1,0 +1,1520 @@
+Start testing: Apr 27 15:39 UTC
+----------------------------------------------------------
+1/37 Testing: HashTable.LinearProberFailureCheck
+1/37 Test: HashTable.LinearProberFailureCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.LinearProberFailureCheck"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.LinearProberFailureCheck" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2170== Memcheck, a memory error detector
+==2170== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2170== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2170== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.LinearProberFailureCheck
+==2170== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.LinearProberFailureCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.LinearProberFailureCheck
+[       OK ] HashTable.LinearProberFailureCheck (11 ms)
+[----------] 1 test from HashTable (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (43 ms total)
+[  PASSED  ] 1 test.
+==2170== 
+==2170== HEAP SUMMARY:
+==2170==     in use at exit: 0 bytes in 0 blocks
+==2170==   total heap usage: 379 allocs, 379 frees, 129,252 bytes allocated
+==2170== 
+==2170== All heap blocks were freed -- no leaks are possible
+==2170== 
+==2170== For lists of detected and suppressed errors, rerun with: -s
+==2170== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.18 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.LinearProberFailureCheck" end time: Apr 27 15:39 UTC
+"HashTable.LinearProberFailureCheck" time elapsed: 00:00:01
+----------------------------------------------------------
+
+2/37 Testing: HashTable.DoubleHashProberSequenceCheck
+2/37 Test: HashTable.DoubleHashProberSequenceCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.DoubleHashProberSequenceCheck"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.DoubleHashProberSequenceCheck" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2171== Memcheck, a memory error detector
+==2171== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2171== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2171== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.DoubleHashProberSequenceCheck
+==2171== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.DoubleHashProberSequenceCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.DoubleHashProberSequenceCheck
+[       OK ] HashTable.DoubleHashProberSequenceCheck (23 ms)
+[----------] 1 test from HashTable (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (61 ms total)
+[  PASSED  ] 1 test.
+==2171== 
+==2171== HEAP SUMMARY:
+==2171==     in use at exit: 0 bytes in 0 blocks
+==2171==   total heap usage: 381 allocs, 381 frees, 129,546 bytes allocated
+==2171== 
+==2171== All heap blocks were freed -- no leaks are possible
+==2171== 
+==2171== For lists of detected and suppressed errors, rerun with: -s
+==2171== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.18 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.DoubleHashProberSequenceCheck" end time: Apr 27 15:39 UTC
+"HashTable.DoubleHashProberSequenceCheck" time elapsed: 00:00:01
+----------------------------------------------------------
+
+3/37 Testing: HashTable.DoubleHashProberFailureCheck
+3/37 Test: HashTable.DoubleHashProberFailureCheck
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.DoubleHashProberFailureCheck"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.DoubleHashProberFailureCheck" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2172== Memcheck, a memory error detector
+==2172== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2172== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2172== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.DoubleHashProberFailureCheck
+==2172== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.DoubleHashProberFailureCheck
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.DoubleHashProberFailureCheck
+[       OK ] HashTable.DoubleHashProberFailureCheck (10 ms)
+[----------] 1 test from HashTable (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (44 ms total)
+[  PASSED  ] 1 test.
+==2172== 
+==2172== HEAP SUMMARY:
+==2172==     in use at exit: 0 bytes in 0 blocks
+==2172==   total heap usage: 379 allocs, 379 frees, 129,372 bytes allocated
+==2172== 
+==2172== All heap blocks were freed -- no leaks are possible
+==2172== 
+==2172== For lists of detected and suppressed errors, rerun with: -s
+==2172== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.14 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.DoubleHashProberFailureCheck" end time: Apr 27 15:39 UTC
+"HashTable.DoubleHashProberFailureCheck" time elapsed: 00:00:01
+----------------------------------------------------------
+
+4/37 Testing: HashTable.Constructor
+4/37 Test: HashTable.Constructor
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.Constructor"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.Constructor" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2173== Memcheck, a memory error detector
+==2173== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2173== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2173== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.Constructor
+==2173== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.Constructor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.Constructor
+[       OK ] HashTable.Constructor (26 ms)
+[----------] 1 test from HashTable (33 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (56 ms total)
+[  PASSED  ] 1 test.
+==2173== 
+==2173== HEAP SUMMARY:
+==2173==     in use at exit: 0 bytes in 0 blocks
+==2173==   total heap usage: 381 allocs, 381 frees, 129,245 bytes allocated
+==2173== 
+==2173== All heap blocks were freed -- no leaks are possible
+==2173== 
+==2173== For lists of detected and suppressed errors, rerun with: -s
+==2173== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.06 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.Constructor" end time: Apr 27 15:39 UTC
+"HashTable.Constructor" time elapsed: 00:00:01
+----------------------------------------------------------
+
+5/37 Testing: HashTable.Insert
+5/37 Test: HashTable.Insert
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.Insert"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.Insert" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2174== Memcheck, a memory error detector
+==2174== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2174== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2174== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.Insert
+==2174== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.Insert
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.Insert
+[       OK ] HashTable.Insert (46 ms)
+[----------] 1 test from HashTable (52 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (75 ms total)
+[  PASSED  ] 1 test.
+==2174== 
+==2174== HEAP SUMMARY:
+==2174==     in use at exit: 0 bytes in 0 blocks
+==2174==   total heap usage: 386 allocs, 386 frees, 129,482 bytes allocated
+==2174== 
+==2174== All heap blocks were freed -- no leaks are possible
+==2174== 
+==2174== For lists of detected and suppressed errors, rerun with: -s
+==2174== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.Insert" end time: Apr 27 15:39 UTC
+"HashTable.Insert" time elapsed: 00:00:01
+----------------------------------------------------------
+
+6/37 Testing: HashTable.InsertDuplicate
+6/37 Test: HashTable.InsertDuplicate
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertDuplicate"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertDuplicate" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2175== Memcheck, a memory error detector
+==2175== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2175== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2175== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertDuplicate
+==2175== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertDuplicate
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertDuplicate
+[       OK ] HashTable.InsertDuplicate (52 ms)
+[----------] 1 test from HashTable (58 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (81 ms total)
+[  PASSED  ] 1 test.
+==2175== 
+==2175== HEAP SUMMARY:
+==2175==     in use at exit: 0 bytes in 0 blocks
+==2175==   total heap usage: 385 allocs, 385 frees, 129,497 bytes allocated
+==2175== 
+==2175== All heap blocks were freed -- no leaks are possible
+==2175== 
+==2175== For lists of detected and suppressed errors, rerun with: -s
+==2175== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.01 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertDuplicate" end time: Apr 27 15:39 UTC
+"HashTable.InsertDuplicate" time elapsed: 00:00:01
+----------------------------------------------------------
+
+7/37 Testing: HashTable.InsertCollision
+7/37 Test: HashTable.InsertCollision
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertCollision"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertCollision" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2176== Memcheck, a memory error detector
+==2176== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2176== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2176== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertCollision
+==2176== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertCollision
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertCollision
+[       OK ] HashTable.InsertCollision (40 ms)
+[----------] 1 test from HashTable (47 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (71 ms total)
+[  PASSED  ] 1 test.
+==2176== 
+==2176== HEAP SUMMARY:
+==2176==     in use at exit: 0 bytes in 0 blocks
+==2176==   total heap usage: 386 allocs, 386 frees, 129,341 bytes allocated
+==2176== 
+==2176== All heap blocks were freed -- no leaks are possible
+==2176== 
+==2176== For lists of detected and suppressed errors, rerun with: -s
+==2176== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.08 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertCollision" end time: Apr 27 15:39 UTC
+"HashTable.InsertCollision" time elapsed: 00:00:01
+----------------------------------------------------------
+
+8/37 Testing: HashTable.InsertResize
+8/37 Test: HashTable.InsertResize
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertResize"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertResize" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2177== Memcheck, a memory error detector
+==2177== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2177== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2177== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertResize
+==2177== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertResize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertResize
+[       OK ] HashTable.InsertResize (65 ms)
+[----------] 1 test from HashTable (72 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (95 ms total)
+[  PASSED  ] 1 test.
+==2177== 
+==2177== HEAP SUMMARY:
+==2177==     in use at exit: 0 bytes in 0 blocks
+==2177==   total heap usage: 394 allocs, 394 frees, 130,156 bytes allocated
+==2177== 
+==2177== All heap blocks were freed -- no leaks are possible
+==2177== 
+==2177== For lists of detected and suppressed errors, rerun with: -s
+==2177== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.03 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertResize" end time: Apr 27 15:39 UTC
+"HashTable.InsertResize" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/37 Testing: HashTable.InsertResizeFactor
+9/37 Test: HashTable.InsertResizeFactor
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertResizeFactor"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertResizeFactor" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2178== Memcheck, a memory error detector
+==2178== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2178== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2178== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertResizeFactor
+==2178== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertResizeFactor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertResizeFactor
+[       OK ] HashTable.InsertResizeFactor (63 ms)
+[----------] 1 test from HashTable (70 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (92 ms total)
+[  PASSED  ] 1 test.
+==2178== 
+==2178== HEAP SUMMARY:
+==2178==     in use at exit: 0 bytes in 0 blocks
+==2178==   total heap usage: 400 allocs, 400 frees, 130,558 bytes allocated
+==2178== 
+==2178== All heap blocks were freed -- no leaks are possible
+==2178== 
+==2178== For lists of detected and suppressed errors, rerun with: -s
+==2178== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertResizeFactor" end time: Apr 27 15:39 UTC
+"HashTable.InsertResizeFactor" time elapsed: 00:00:01
+----------------------------------------------------------
+
+10/37 Testing: HashTable.Find
+10/37 Test: HashTable.Find
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.Find"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.Find" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2179== Memcheck, a memory error detector
+==2179== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2179== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2179== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.Find
+==2179== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.Find
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.Find
+[       OK ] HashTable.Find (31 ms)
+[----------] 1 test from HashTable (37 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (59 ms total)
+[  PASSED  ] 1 test.
+==2179== 
+==2179== HEAP SUMMARY:
+==2179==     in use at exit: 0 bytes in 0 blocks
+==2179==   total heap usage: 360 allocs, 360 frees, 128,541 bytes allocated
+==2179== 
+==2179== All heap blocks were freed -- no leaks are possible
+==2179== 
+==2179== For lists of detected and suppressed errors, rerun with: -s
+==2179== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.Find" end time: Apr 27 15:39 UTC
+"HashTable.Find" time elapsed: 00:00:00
+----------------------------------------------------------
+
+11/37 Testing: HashTable.FindCollisions
+11/37 Test: HashTable.FindCollisions
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.FindCollisions"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.FindCollisions" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2180== Memcheck, a memory error detector
+==2180== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2180== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2180== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.FindCollisions
+==2180== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.FindCollisions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.FindCollisions
+[       OK ] HashTable.FindCollisions (26 ms)
+[----------] 1 test from HashTable (32 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (55 ms total)
+[  PASSED  ] 1 test.
+==2180== 
+==2180== HEAP SUMMARY:
+==2180==     in use at exit: 0 bytes in 0 blocks
+==2180==   total heap usage: 383 allocs, 383 frees, 129,214 bytes allocated
+==2180== 
+==2180== All heap blocks were freed -- no leaks are possible
+==2180== 
+==2180== For lists of detected and suppressed errors, rerun with: -s
+==2180== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.FindCollisions" end time: Apr 27 15:39 UTC
+"HashTable.FindCollisions" time elapsed: 00:00:01
+----------------------------------------------------------
+
+12/37 Testing: HashTable.Remove
+12/37 Test: HashTable.Remove
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.Remove"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.Remove" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2181== Memcheck, a memory error detector
+==2181== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2181== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2181== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.Remove
+==2181== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.Remove
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.Remove
+[       OK ] HashTable.Remove (56 ms)
+[----------] 1 test from HashTable (62 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (87 ms total)
+[  PASSED  ] 1 test.
+==2181== 
+==2181== HEAP SUMMARY:
+==2181==     in use at exit: 0 bytes in 0 blocks
+==2181==   total heap usage: 386 allocs, 386 frees, 129,482 bytes allocated
+==2181== 
+==2181== All heap blocks were freed -- no leaks are possible
+==2181== 
+==2181== For lists of detected and suppressed errors, rerun with: -s
+==2181== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.04 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.Remove" end time: Apr 27 15:39 UTC
+"HashTable.Remove" time elapsed: 00:00:01
+----------------------------------------------------------
+
+13/37 Testing: HashTable.RemoveNothing
+13/37 Test: HashTable.RemoveNothing
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.RemoveNothing"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.RemoveNothing" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2182== Memcheck, a memory error detector
+==2182== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2182== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2182== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.RemoveNothing
+==2182== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.RemoveNothing
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.RemoveNothing
+[       OK ] HashTable.RemoveNothing (48 ms)
+[----------] 1 test from HashTable (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (77 ms total)
+[  PASSED  ] 1 test.
+==2182== 
+==2182== HEAP SUMMARY:
+==2182==     in use at exit: 0 bytes in 0 blocks
+==2182==   total heap usage: 386 allocs, 386 frees, 129,531 bytes allocated
+==2182== 
+==2182== All heap blocks were freed -- no leaks are possible
+==2182== 
+==2182== For lists of detected and suppressed errors, rerun with: -s
+==2182== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.RemoveNothing" end time: Apr 27 15:39 UTC
+"HashTable.RemoveNothing" time elapsed: 00:00:01
+----------------------------------------------------------
+
+14/37 Testing: HashTable.RemoveCollisions
+14/37 Test: HashTable.RemoveCollisions
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.RemoveCollisions"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.RemoveCollisions" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2183== Memcheck, a memory error detector
+==2183== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2183== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2183== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.RemoveCollisions
+==2183== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.RemoveCollisions
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.RemoveCollisions
+[       OK ] HashTable.RemoveCollisions (50 ms)
+[----------] 1 test from HashTable (57 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (80 ms total)
+[  PASSED  ] 1 test.
+==2183== 
+==2183== HEAP SUMMARY:
+==2183==     in use at exit: 0 bytes in 0 blocks
+==2183==   total heap usage: 388 allocs, 388 frees, 129,400 bytes allocated
+==2183== 
+==2183== All heap blocks were freed -- no leaks are possible
+==2183== 
+==2183== For lists of detected and suppressed errors, rerun with: -s
+==2183== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.RemoveCollisions" end time: Apr 27 15:39 UTC
+"HashTable.RemoveCollisions" time elapsed: 00:00:01
+----------------------------------------------------------
+
+15/37 Testing: HashTable.TestSize
+15/37 Test: HashTable.TestSize
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.TestSize"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.TestSize" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2184== Memcheck, a memory error detector
+==2184== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2184== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2184== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.TestSize
+==2184== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.TestSize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.TestSize
+[       OK ] HashTable.TestSize (32 ms)
+[----------] 1 test from HashTable (39 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (64 ms total)
+[  PASSED  ] 1 test.
+==2184== 
+==2184== HEAP SUMMARY:
+==2184==     in use at exit: 0 bytes in 0 blocks
+==2184==   total heap usage: 383 allocs, 383 frees, 129,280 bytes allocated
+==2184== 
+==2184== All heap blocks were freed -- no leaks are possible
+==2184== 
+==2184== For lists of detected and suppressed errors, rerun with: -s
+==2184== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.TestSize" end time: Apr 27 15:39 UTC
+"HashTable.TestSize" time elapsed: 00:00:01
+----------------------------------------------------------
+
+16/37 Testing: HashTable.TestEmpty
+16/37 Test: HashTable.TestEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.TestEmpty"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.TestEmpty" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2185== Memcheck, a memory error detector
+==2185== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2185== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2185== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.TestEmpty
+==2185== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.TestEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.TestEmpty
+[       OK ] HashTable.TestEmpty (126 ms)
+[----------] 1 test from HashTable (134 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (178 ms total)
+[  PASSED  ] 1 test.
+==2185== 
+==2185== HEAP SUMMARY:
+==2185==     in use at exit: 0 bytes in 0 blocks
+==2185==   total heap usage: 383 allocs, 383 frees, 129,287 bytes allocated
+==2185== 
+==2185== All heap blocks were freed -- no leaks are possible
+==2185== 
+==2185== For lists of detected and suppressed errors, rerun with: -s
+==2185== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.15 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.TestEmpty" end time: Apr 27 15:39 UTC
+"HashTable.TestEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+17/37 Testing: HashTable.LogicErrorTest
+17/37 Test: HashTable.LogicErrorTest
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.LogicErrorTest"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.LogicErrorTest" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2186== Memcheck, a memory error detector
+==2186== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2186== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2186== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.LogicErrorTest
+==2186== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.LogicErrorTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.LogicErrorTest
+[       OK ] HashTable.LogicErrorTest (61 ms)
+[----------] 1 test from HashTable (67 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (90 ms total)
+[  PASSED  ] 1 test.
+==2186== 
+==2186== HEAP SUMMARY:
+==2186==     in use at exit: 0 bytes in 0 blocks
+==2186==   total heap usage: 393 allocs, 393 frees, 129,499 bytes allocated
+==2186== 
+==2186== All heap blocks were freed -- no leaks are possible
+==2186== 
+==2186== For lists of detected and suppressed errors, rerun with: -s
+==2186== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.32 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.LogicErrorTest" end time: Apr 27 15:39 UTC
+"HashTable.LogicErrorTest" time elapsed: 00:00:01
+----------------------------------------------------------
+
+18/37 Testing: HashTable.InsertDoubleHashProbeCollision
+18/37 Test: HashTable.InsertDoubleHashProbeCollision
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertDoubleHashProbeCollision"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertDoubleHashProbeCollision" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2187== Memcheck, a memory error detector
+==2187== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2187== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2187== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertDoubleHashProbeCollision
+==2187== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertDoubleHashProbeCollision
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertDoubleHashProbeCollision
+[       OK ] HashTable.InsertDoubleHashProbeCollision (47 ms)
+[----------] 1 test from HashTable (54 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (77 ms total)
+[  PASSED  ] 1 test.
+==2187== 
+==2187== HEAP SUMMARY:
+==2187==     in use at exit: 0 bytes in 0 blocks
+==2187==   total heap usage: 392 allocs, 392 frees, 129,832 bytes allocated
+==2187== 
+==2187== All heap blocks were freed -- no leaks are possible
+==2187== 
+==2187== For lists of detected and suppressed errors, rerun with: -s
+==2187== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.10 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertDoubleHashProbeCollision" end time: Apr 27 15:39 UTC
+"HashTable.InsertDoubleHashProbeCollision" time elapsed: 00:00:01
+----------------------------------------------------------
+
+19/37 Testing: HashTable.InsertStressTestResizeOneLoadFactor
+19/37 Test: HashTable.InsertStressTestResizeOneLoadFactor
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertStressTestResizeOneLoadFactor"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertStressTestResizeOneLoadFactor" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2188== Memcheck, a memory error detector
+==2188== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2188== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2188== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertStressTestResizeOneLoadFactor
+==2188== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertStressTestResizeOneLoadFactor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertStressTestResizeOneLoadFactor
+[       OK ] HashTable.InsertStressTestResizeOneLoadFactor (8925 ms)
+[----------] 1 test from HashTable (8932 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8954 ms total)
+[  PASSED  ] 1 test.
+==2188== 
+==2188== HEAP SUMMARY:
+==2188==     in use at exit: 0 bytes in 0 blocks
+==2188==   total heap usage: 206,165 allocs, 206,165 frees, 10,416,154 bytes allocated
+==2188== 
+==2188== All heap blocks were freed -- no leaks are possible
+==2188== 
+==2188== For lists of detected and suppressed errors, rerun with: -s
+==2188== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   9.95 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertStressTestResizeOneLoadFactor" end time: Apr 27 15:39 UTC
+"HashTable.InsertStressTestResizeOneLoadFactor" time elapsed: 00:00:09
+----------------------------------------------------------
+
+20/37 Testing: HashTable.InsertStressTestResizeNotOneLoadFactor
+20/37 Test: HashTable.InsertStressTestResizeNotOneLoadFactor
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.InsertStressTestResizeNotOneLoadFactor"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.InsertStressTestResizeNotOneLoadFactor" start time: Apr 27 15:39 UTC
+Output:
+----------------------------------------------------------
+==2189== Memcheck, a memory error detector
+==2189== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2189== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2189== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.InsertStressTestResizeNotOneLoadFactor
+==2189== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.InsertStressTestResizeNotOneLoadFactor
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.InsertStressTestResizeNotOneLoadFactor
+[       OK ] HashTable.InsertStressTestResizeNotOneLoadFactor (8653 ms)
+[----------] 1 test from HashTable (8660 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (8683 ms total)
+[  PASSED  ] 1 test.
+==2189== 
+==2189== HEAP SUMMARY:
+==2189==     in use at exit: 0 bytes in 0 blocks
+==2189==   total heap usage: 206,165 allocs, 206,165 frees, 10,416,244 bytes allocated
+==2189== 
+==2189== All heap blocks were freed -- no leaks are possible
+==2189== 
+==2189== For lists of detected and suppressed errors, rerun with: -s
+==2189== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   9.63 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.InsertStressTestResizeNotOneLoadFactor" end time: Apr 27 15:40 UTC
+"HashTable.InsertStressTestResizeNotOneLoadFactor" time elapsed: 00:00:09
+----------------------------------------------------------
+
+21/37 Testing: HashTable.StressInsertRemoveResizeLinear
+21/37 Test: HashTable.StressInsertRemoveResizeLinear
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests" "--gtest_filter=HashTable.StressInsertRemoveResizeLinear"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests
+"HashTable.StressInsertRemoveResizeLinear" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2190== Memcheck, a memory error detector
+==2190== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2190== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2190== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashtable_tests/hashtable_tests --gtest_filter=HashTable.StressInsertRemoveResizeLinear
+==2190== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashTable.StressInsertRemoveResizeLinear
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashTable
+[ RUN      ] HashTable.StressInsertRemoveResizeLinear
+[       OK ] HashTable.StressInsertRemoveResizeLinear (2292 ms)
+[----------] 1 test from HashTable (2298 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (2322 ms total)
+[  PASSED  ] 1 test.
+==2190== 
+==2190== HEAP SUMMARY:
+==2190==     in use at exit: 0 bytes in 0 blocks
+==2190==   total heap usage: 4,240 allocs, 4,240 frees, 355,772 bytes allocated
+==2190== 
+==2190== All heap blocks were freed -- no leaks are possible
+==2190== 
+==2190== For lists of detected and suppressed errors, rerun with: -s
+==2190== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   3.25 sec
+----------------------------------------------------------
+Test Passed.
+"HashTable.StressInsertRemoveResizeLinear" end time: Apr 27 15:40 UTC
+"HashTable.StressInsertRemoveResizeLinear" time elapsed: 00:00:03
+----------------------------------------------------------
+
+22/37 Testing: HashFunc.ExampleOne
+22/37 Test: HashFunc.ExampleOne
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.ExampleOne"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.ExampleOne" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2191== Memcheck, a memory error detector
+==2191== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2191== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2191== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.ExampleOne
+==2191== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.ExampleOne
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.ExampleOne
+[       OK ] HashFunc.ExampleOne (9 ms)
+[----------] 1 test from HashFunc (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==2191== 
+==2191== HEAP SUMMARY:
+==2191==     in use at exit: 0 bytes in 0 blocks
+==2191==   total heap usage: 274 allocs, 274 frees, 121,554 bytes allocated
+==2191== 
+==2191== All heap blocks were freed -- no leaks are possible
+==2191== 
+==2191== For lists of detected and suppressed errors, rerun with: -s
+==2191== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.35 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.ExampleOne" end time: Apr 27 15:40 UTC
+"HashFunc.ExampleOne" time elapsed: 00:00:01
+----------------------------------------------------------
+
+23/37 Testing: HashFunc.ExampleTwo
+23/37 Test: HashFunc.ExampleTwo
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.ExampleTwo"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.ExampleTwo" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2192== Memcheck, a memory error detector
+==2192== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2192== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2192== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.ExampleTwo
+==2192== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.ExampleTwo
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.ExampleTwo
+[       OK ] HashFunc.ExampleTwo (9 ms)
+[----------] 1 test from HashFunc (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (41 ms total)
+[  PASSED  ] 1 test.
+==2192== 
+==2192== HEAP SUMMARY:
+==2192==     in use at exit: 0 bytes in 0 blocks
+==2192==   total heap usage: 274 allocs, 274 frees, 121,554 bytes allocated
+==2192== 
+==2192== All heap blocks were freed -- no leaks are possible
+==2192== 
+==2192== For lists of detected and suppressed errors, rerun with: -s
+==2192== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.02 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.ExampleTwo" end time: Apr 27 15:40 UTC
+"HashFunc.ExampleTwo" time elapsed: 00:00:01
+----------------------------------------------------------
+
+24/37 Testing: HashFunc.ExampleThree
+24/37 Test: HashFunc.ExampleThree
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.ExampleThree"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.ExampleThree" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2193== Memcheck, a memory error detector
+==2193== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2193== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2193== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.ExampleThree
+==2193== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.ExampleThree
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.ExampleThree
+[       OK ] HashFunc.ExampleThree (11 ms)
+[----------] 1 test from HashFunc (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==2193== 
+==2193== HEAP SUMMARY:
+==2193==     in use at exit: 0 bytes in 0 blocks
+==2193==   total heap usage: 275 allocs, 275 frees, 121,597 bytes allocated
+==2193== 
+==2193== All heap blocks were freed -- no leaks are possible
+==2193== 
+==2193== For lists of detected and suppressed errors, rerun with: -s
+==2193== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.98 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.ExampleThree" end time: Apr 27 15:40 UTC
+"HashFunc.ExampleThree" time elapsed: 00:00:00
+----------------------------------------------------------
+
+25/37 Testing: HashFunc.LargestInputString
+25/37 Test: HashFunc.LargestInputString
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.LargestInputString"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.LargestInputString" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2194== Memcheck, a memory error detector
+==2194== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2194== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2194== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.LargestInputString
+==2194== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.LargestInputString
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.LargestInputString
+[       OK ] HashFunc.LargestInputString (11 ms)
+[----------] 1 test from HashFunc (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (40 ms total)
+[  PASSED  ] 1 test.
+==2194== 
+==2194== HEAP SUMMARY:
+==2194==     in use at exit: 0 bytes in 0 blocks
+==2194==   total heap usage: 275 allocs, 275 frees, 121,639 bytes allocated
+==2194== 
+==2194== All heap blocks were freed -- no leaks are possible
+==2194== 
+==2194== For lists of detected and suppressed errors, rerun with: -s
+==2194== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.LargestInputString" end time: Apr 27 15:40 UTC
+"HashFunc.LargestInputString" time elapsed: 00:00:00
+----------------------------------------------------------
+
+26/37 Testing: HashFunc.StringEmpty
+26/37 Test: HashFunc.StringEmpty
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.StringEmpty"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.StringEmpty" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2195== Memcheck, a memory error detector
+==2195== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2195== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2195== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.StringEmpty
+==2195== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.StringEmpty
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.StringEmpty
+[       OK ] HashFunc.StringEmpty (9 ms)
+[----------] 1 test from HashFunc (15 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (38 ms total)
+[  PASSED  ] 1 test.
+==2195== 
+==2195== HEAP SUMMARY:
+==2195==     in use at exit: 0 bytes in 0 blocks
+==2195==   total heap usage: 274 allocs, 274 frees, 121,561 bytes allocated
+==2195== 
+==2195== All heap blocks were freed -- no leaks are possible
+==2195== 
+==2195== For lists of detected and suppressed errors, rerun with: -s
+==2195== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.00 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.StringEmpty" end time: Apr 27 15:40 UTC
+"HashFunc.StringEmpty" time elapsed: 00:00:01
+----------------------------------------------------------
+
+27/37 Testing: HashFunc.String1
+27/37 Test: HashFunc.String1
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.String1"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.String1" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2196== Memcheck, a memory error detector
+==2196== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2196== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2196== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.String1
+==2196== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.String1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.String1
+[       OK ] HashFunc.String1 (10 ms)
+[----------] 1 test from HashFunc (18 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (44 ms total)
+[  PASSED  ] 1 test.
+==2196== 
+==2196== HEAP SUMMARY:
+==2196==     in use at exit: 0 bytes in 0 blocks
+==2196==   total heap usage: 274 allocs, 274 frees, 121,533 bytes allocated
+==2196== 
+==2196== All heap blocks were freed -- no leaks are possible
+==2196== 
+==2196== For lists of detected and suppressed errors, rerun with: -s
+==2196== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.98 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.String1" end time: Apr 27 15:40 UTC
+"HashFunc.String1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+28/37 Testing: HashFunc.String7
+28/37 Test: HashFunc.String7
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.String7"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.String7" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2197== Memcheck, a memory error detector
+==2197== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2197== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2197== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.String7
+==2197== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.String7
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.String7
+[       OK ] HashFunc.String7 (9 ms)
+[----------] 1 test from HashFunc (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==2197== 
+==2197== HEAP SUMMARY:
+==2197==     in use at exit: 0 bytes in 0 blocks
+==2197==   total heap usage: 274 allocs, 274 frees, 121,533 bytes allocated
+==2197== 
+==2197== All heap blocks were freed -- no leaks are possible
+==2197== 
+==2197== For lists of detected and suppressed errors, rerun with: -s
+==2197== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.String7" end time: Apr 27 15:40 UTC
+"HashFunc.String7" time elapsed: 00:00:00
+----------------------------------------------------------
+
+29/37 Testing: HashFunc.String12
+29/37 Test: HashFunc.String12
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.String12"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.String12" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2198== Memcheck, a memory error detector
+==2198== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2198== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2198== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.String12
+==2198== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.String12
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.String12
+[       OK ] HashFunc.String12 (9 ms)
+[----------] 1 test from HashFunc (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==2198== 
+==2198== HEAP SUMMARY:
+==2198==     in use at exit: 0 bytes in 0 blocks
+==2198==   total heap usage: 274 allocs, 274 frees, 121,540 bytes allocated
+==2198== 
+==2198== All heap blocks were freed -- no leaks are possible
+==2198== 
+==2198== For lists of detected and suppressed errors, rerun with: -s
+==2198== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.96 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.String12" end time: Apr 27 15:40 UTC
+"HashFunc.String12" time elapsed: 00:00:00
+----------------------------------------------------------
+
+30/37 Testing: HashFunc.String13
+30/37 Test: HashFunc.String13
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.String13"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.String13" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2199== Memcheck, a memory error detector
+==2199== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2199== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2199== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.String13
+==2199== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.String13
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.String13
+[       OK ] HashFunc.String13 (10 ms)
+[----------] 1 test from HashFunc (16 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (39 ms total)
+[  PASSED  ] 1 test.
+==2199== 
+==2199== HEAP SUMMARY:
+==2199==     in use at exit: 0 bytes in 0 blocks
+==2199==   total heap usage: 274 allocs, 274 frees, 121,540 bytes allocated
+==2199== 
+==2199== All heap blocks were freed -- no leaks are possible
+==2199== 
+==2199== For lists of detected and suppressed errors, rerun with: -s
+==2199== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.String13" end time: Apr 27 15:40 UTC
+"HashFunc.String13" time elapsed: 00:00:00
+----------------------------------------------------------
+
+31/37 Testing: HashFunc.StringCase
+31/37 Test: HashFunc.StringCase
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.StringCase"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.StringCase" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2200== Memcheck, a memory error detector
+==2200== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2200== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2200== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.StringCase
+==2200== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.StringCase
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.StringCase
+[       OK ] HashFunc.StringCase (11 ms)
+[----------] 1 test from HashFunc (17 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (40 ms total)
+[  PASSED  ] 1 test.
+==2200== 
+==2200== HEAP SUMMARY:
+==2200==     in use at exit: 0 bytes in 0 blocks
+==2200==   total heap usage: 276 allocs, 276 frees, 121,592 bytes allocated
+==2200== 
+==2200== All heap blocks were freed -- no leaks are possible
+==2200== 
+==2200== For lists of detected and suppressed errors, rerun with: -s
+==2200== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   0.97 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.StringCase" end time: Apr 27 15:40 UTC
+"HashFunc.StringCase" time elapsed: 00:00:00
+----------------------------------------------------------
+
+32/37 Testing: HashFunc.TestRandomize
+32/37 Test: HashFunc.TestRandomize
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests" "--gtest_filter=HashFunc.TestRandomize"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests
+"HashFunc.TestRandomize" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2201== Memcheck, a memory error detector
+==2201== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2201== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2201== Command: /work/hw-melgart/hw6/hw6_stu_tests/hashfunc_tests/hashfunc_tests --gtest_filter=HashFunc.TestRandomize
+==2201== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = HashFunc.TestRandomize
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from HashFunc
+[ RUN      ] HashFunc.TestRandomize
+[       OK ] HashFunc.TestRandomize (5052 ms)
+[----------] 1 test from HashFunc (5059 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (5081 ms total)
+[  PASSED  ] 1 test.
+==2201== 
+==2201== HEAP SUMMARY:
+==2201==     in use at exit: 0 bytes in 0 blocks
+==2201==   total heap usage: 285 allocs, 285 frees, 121,964 bytes allocated
+==2201== 
+==2201== All heap blocks were freed -- no leaks are possible
+==2201== 
+==2201== For lists of detected and suppressed errors, rerun with: -s
+==2201== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   6.05 sec
+----------------------------------------------------------
+Test Passed.
+"HashFunc.TestRandomize" end time: Apr 27 15:40 UTC
+"HashFunc.TestRandomize" time elapsed: 00:00:06
+----------------------------------------------------------
+
+33/37 Testing: GraphIso.Graph1True
+33/37 Test: GraphIso.Graph1True
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests" "--gtest_filter=GraphIso.Graph1True"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests
+"GraphIso.Graph1True" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2202== Memcheck, a memory error detector
+==2202== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2202== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2202== Command: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests --gtest_filter=GraphIso.Graph1True
+==2202== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = GraphIso.Graph1True
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphIso
+[ RUN      ] GraphIso.Graph1True
+[       OK ] GraphIso.Graph1True (148 ms)
+[----------] 1 test from GraphIso (155 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (177 ms total)
+[  PASSED  ] 1 test.
+==2202== 
+==2202== HEAP SUMMARY:
+==2202==     in use at exit: 0 bytes in 0 blocks
+==2202==   total heap usage: 398 allocs, 398 frees, 130,433 bytes allocated
+==2202== 
+==2202== All heap blocks were freed -- no leaks are possible
+==2202== 
+==2202== For lists of detected and suppressed errors, rerun with: -s
+==2202== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.45 sec
+----------------------------------------------------------
+Test Passed.
+"GraphIso.Graph1True" end time: Apr 27 15:40 UTC
+"GraphIso.Graph1True" time elapsed: 00:00:01
+----------------------------------------------------------
+
+34/37 Testing: GraphIso.Graph2True
+34/37 Test: GraphIso.Graph2True
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests" "--gtest_filter=GraphIso.Graph2True"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests
+"GraphIso.Graph2True" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2203== Memcheck, a memory error detector
+==2203== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2203== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2203== Command: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests --gtest_filter=GraphIso.Graph2True
+==2203== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = GraphIso.Graph2True
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphIso
+[ RUN      ] GraphIso.Graph2True
+[       OK ] GraphIso.Graph2True (163 ms)
+[----------] 1 test from GraphIso (168 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (192 ms total)
+[  PASSED  ] 1 test.
+==2203== 
+==2203== HEAP SUMMARY:
+==2203==     in use at exit: 0 bytes in 0 blocks
+==2203==   total heap usage: 570 allocs, 570 frees, 149,089 bytes allocated
+==2203== 
+==2203== All heap blocks were freed -- no leaks are possible
+==2203== 
+==2203== For lists of detected and suppressed errors, rerun with: -s
+==2203== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.26 sec
+----------------------------------------------------------
+Test Passed.
+"GraphIso.Graph2True" end time: Apr 27 15:40 UTC
+"GraphIso.Graph2True" time elapsed: 00:00:01
+----------------------------------------------------------
+
+35/37 Testing: GraphIso.Graph3False
+35/37 Test: GraphIso.Graph3False
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests" "--gtest_filter=GraphIso.Graph3False"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests
+"GraphIso.Graph3False" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2204== Memcheck, a memory error detector
+==2204== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2204== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2204== Command: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests --gtest_filter=GraphIso.Graph3False
+==2204== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = GraphIso.Graph3False
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphIso
+[ RUN      ] GraphIso.Graph3False
+[       OK ] GraphIso.Graph3False (147 ms)
+[----------] 1 test from GraphIso (153 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (176 ms total)
+[  PASSED  ] 1 test.
+==2204== 
+==2204== HEAP SUMMARY:
+==2204==     in use at exit: 0 bytes in 0 blocks
+==2204==   total heap usage: 475 allocs, 475 frees, 141,925 bytes allocated
+==2204== 
+==2204== All heap blocks were freed -- no leaks are possible
+==2204== 
+==2204== For lists of detected and suppressed errors, rerun with: -s
+==2204== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.10 sec
+----------------------------------------------------------
+Test Passed.
+"GraphIso.Graph3False" end time: Apr 27 15:40 UTC
+"GraphIso.Graph3False" time elapsed: 00:00:01
+----------------------------------------------------------
+
+36/37 Testing: GraphIso.Graph4aTrue
+36/37 Test: GraphIso.Graph4aTrue
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests" "--gtest_filter=GraphIso.Graph4aTrue"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests
+"GraphIso.Graph4aTrue" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2205== Memcheck, a memory error detector
+==2205== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2205== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2205== Command: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests --gtest_filter=GraphIso.Graph4aTrue
+==2205== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = GraphIso.Graph4aTrue
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphIso
+[ RUN      ] GraphIso.Graph4aTrue
+[       OK ] GraphIso.Graph4aTrue (177 ms)
+[----------] 1 test from GraphIso (184 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (207 ms total)
+[  PASSED  ] 1 test.
+==2205== 
+==2205== HEAP SUMMARY:
+==2205==     in use at exit: 0 bytes in 0 blocks
+==2205==   total heap usage: 823 allocs, 823 frees, 167,696 bytes allocated
+==2205== 
+==2205== All heap blocks were freed -- no leaks are possible
+==2205== 
+==2205== For lists of detected and suppressed errors, rerun with: -s
+==2205== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   1.13 sec
+----------------------------------------------------------
+Test Passed.
+"GraphIso.Graph4aTrue" end time: Apr 27 15:40 UTC
+"GraphIso.Graph4aTrue" time elapsed: 00:00:01
+----------------------------------------------------------
+
+37/37 Testing: GraphIso.Graph4bFalse
+37/37 Test: GraphIso.Graph4bFalse
+Command: "/usr/bin/valgrind" "--tool=memcheck" "--leak-check=yes" "--trace-children=no" "/work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests" "--gtest_filter=GraphIso.Graph4bFalse"
+Directory: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests
+"GraphIso.Graph4bFalse" start time: Apr 27 15:40 UTC
+Output:
+----------------------------------------------------------
+==2206== Memcheck, a memory error detector
+==2206== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2206== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2206== Command: /work/hw-melgart/hw6/hw6_stu_tests/graphiso_tests/graphiso_tests --gtest_filter=GraphIso.Graph4bFalse
+==2206== 
+Running main() from /build/googletest-j5yxiC/googletest-1.10.0/googletest/src/gtest_main.cc
+Note: Google Test filter = GraphIso.Graph4bFalse
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from GraphIso
+[ RUN      ] GraphIso.Graph4bFalse
+[       OK ] GraphIso.Graph4bFalse (3366 ms)
+[----------] 1 test from GraphIso (3374 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (3396 ms total)
+[  PASSED  ] 1 test.
+==2206== 
+==2206== HEAP SUMMARY:
+==2206==     in use at exit: 0 bytes in 0 blocks
+==2206==   total heap usage: 17,292 allocs, 17,292 frees, 1,598,727 bytes allocated
+==2206== 
+==2206== All heap blocks were freed -- no leaks are possible
+==2206== 
+==2206== For lists of detected and suppressed errors, rerun with: -s
+==2206== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+<end of output>
+Test time =   4.31 sec
+----------------------------------------------------------
+Test Passed.
+"GraphIso.Graph4bFalse" end time: Apr 27 15:40 UTC
+"GraphIso.Graph4bFalse" time elapsed: 00:00:04
+----------------------------------------------------------
+
+End testing: Apr 27 15:40 UTC

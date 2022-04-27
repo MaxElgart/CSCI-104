@@ -17,11 +17,11 @@ void printVertexMapping(std::ostream& ostr, const Graph& g1, VERTEX_ID_MAP_T& ma
 	for(const auto& g1v : g1Verts){
 		if(mapping.find(g1v) != nullptr)
 		{
-			cout << "G1: " << g1v << " <=> G2: " << mapping[g1v]  << endl;
+			ostr << "G1: " << g1v << " <=> G2: " << mapping[g1v]  << endl;
 		}
 		else 
 		{
-			cout << "G1: " << g1v << ": NO MAPPING!" << endl;
+			ostr << "G1: " << g1v << ": NO MAPPING!" << endl;
 		}
 	}
 }
@@ -64,9 +64,13 @@ testing::AssertionResult runAndVerifySolution(
 		auto g2u = mapping.at(g1u);
 		if(g2VertexSet.find(g2u) == g2VertexSet.end())
 		{
-			err << "G1: " << g1u << " maps to " << g2u << " but that vertex doesn't exist in G2" << endl;
+			err << "G1: " << g1u << " maps to " << g2u << " but that vertex doesn't exist in G2 or was already used" << endl;
 			result = false;
 			continue;
+		}
+		else 
+		{
+			g2VertexSet.erase(g2u);
 		}
 		auto g1Neighbors = g1.neighbors(g1u);
 		auto g2Neighbors = g2.neighbors(g2u);
@@ -81,7 +85,7 @@ testing::AssertionResult runAndVerifySolution(
 		{
 			if( !g2.edgeExists(mapping[g1u], mapping[g1v]))
 			{
-				err << "Expected G1 edge: " << g1u << "," << g1u << " does not have a corresponding edge between:"
+				err << "Expected G1 edge: " << g1u << "," << g1v << " does not have a corresponding edge between:"
 				    << "G2: " << g2u << "," << mapping[g1v] << endl;
 				result = false;
 			}
@@ -90,6 +94,7 @@ testing::AssertionResult runAndVerifySolution(
     }
 	if(false == result)
 	{
+		printVertexMapping(err, g1, mapping);
 		return testing::AssertionFailure() << err.str() << endl;			
 	}
 	return testing::AssertionSuccess();
@@ -130,12 +135,12 @@ TEST(GraphIso, Graph2True)
 		"a2 a1 a3 a4 a5\n"
 		"a3 a2\n" 
 		"a4 a2\n"
-		"a5 a2\n" 
+		"a5 a2 a6\n" 
 		"a6 a5\n" 
 	);
 	stringstream ss2(
 		"b1 b2\n"
-		"b2 b3\n"
+		"b2 b3 b1\n"
 		"b3 b4 b5 b6 b2\n"
 		"b4 b3\n"
 		"b5 b3\n"
@@ -159,12 +164,12 @@ TEST(GraphIso, Graph3False)
 		"a2 a1 a3 a4 a5\n"
 		"a3 a2\n" 
 		"a4 a2\n"
-		"a5 a2\n" 
+		"a5 a2 a6\n" 
 		"a6 a5\n" 
 	);
 	stringstream ss2(
 		"b1 b2 b3\n"
-		"b2 b3\n"
+		"b2 b3 b1\n"
 		"b3 b4 b5 b6 b2 b1\n"
 		"b4 b3\n"
 		"b5 b3\n"
