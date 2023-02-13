@@ -1,0 +1,12 @@
+1. Line 249 was "invaders[invaderRow][invaderRow] = new Warrior();" when it should be "invaders[invaderRow][invaderCol] = new Warrior();"
+
+2. On line 27 there was a semicolon at the end of the if statement it was "if (protector->weapon == weapon_axe && invader->weapon == weapon_sword);" then I changed it to "if (protector->weapon == weapon_axe && invader->weapon == weapon_sword)"
+
+3. In line 62 the for loop conditions weren't incrementing colIdx up, it was "for (int colIdx = 0; colIdx < numCols;)" then I added 	"for (int colIdx = 0; colIdx < numCols; ++colIdx)"
+
+4. Line 218 was "  DeallocateWarriors(invaders, n, m);" when it was supposed to be 
+"DeallocateWarriors(invaders, m, n);"
+
+5. On lines 113 and 117 the greater than signs were flipped. On line 113 it was 
+"if (invader->power < protector->power)" when it should be "if (invader->power > protector->power)" and on 117 it was "else if (protector->power < invader->power)" when it should be 
+"else if (protector->power > invader->power)"
